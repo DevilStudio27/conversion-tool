@@ -15,7 +15,7 @@ const IndexPage = () => {
         try {
             JSON.parse(str);
         }
-        catch (e) {
+        catch {
             return false;
         }
         return true;
@@ -24,7 +24,7 @@ const IndexPage = () => {
     const convertCallback = () => {
         if (isValidFn(jsonInput)) {
             setIsValid("valid");
-            let data = JSON.stringify(JSON.parse(jsonInput), null, 4);
+            let data = JSON.stringify(JSON.parse(jsonInput), null, 3);
             setJsonResult(data);
         }
         else {
@@ -34,12 +34,13 @@ const IndexPage = () => {
     }
     const clearValues = () => {
         setJsonInput('')
+        setIsValid('')
         setJsonResult('')
     }
 
     const handleCopy = () => {
         let copyText = document.getElementById("resultTxt");
-        navigator.clipboard.writeText(copyText.value);
+        navigator.clipboard.writeText(copyText.innerHTML);
         setIsCopied('copied');
         setInterval(() => {
             setIsCopied('copy')
@@ -58,28 +59,34 @@ const IndexPage = () => {
                             <p className="lead">Conversion Tools By Premium Tools</p>
                         </div>
                         <div className="container">
-                            <div className="container my-3 row justify-content-center card-container card shadow card-body" >
-                                <form id="converterForm" >
-                                    <div className="sub-container">
-                                        <label htmlFor="tabin">Json Data / String</label>
-                                        <textarea name="tabin" id="tabin" rows="4" required spellCheck="false" value={jsonInput} placeholder="{}" onChange={(e) => setJsonInput(e.target.value)}></textarea>
-                                        <button type="button" className="btn btn-primary mr-2" onClick={() => convertCallback()}>Convert</button>
-                                        <button type="button" className="btn btn-secondary " onClick={() => clearValues()}>Clear</button>
+                            <div className="container my-2 row justify-content-center card-container card shadow card-body" >
+                                <form id="converterForm">
+                                    <div className="json-container">
+                                        <div className="sub-container">
+                                            <label htmlFor="tabin"><h5 className="res-title">Json Data / String</h5></label>
+                                            <textarea name="tabin" id="tabin" rows="10" required spellCheck="false" value={jsonInput} placeholder="{}" onChange={(e) => setJsonInput(e.target.value)}></textarea>
+                                            <div>
+                                                <button type="button" className="btn btn-primary mr-2" onClick={() => convertCallback()}>Validate JSON</button>
+                                                <button type="button" className="btn btn-secondary " onClick={() => clearValues()}>Clear</button>
+                                            </div>
+                                        </div>
+                                        <div className="res-container">
+                                            <h5 className="res-title">Json Formatted Data</h5>
+                                            <pre className="result-view" id="resultTxt">
+                                                {jsonResult}
+                                            </pre>
+                                            <button type="button" className="btn btn-primary mr-2" onClick={() => handleCopy()}>{isCopied === "copied" ? "Copied" : "Copy"}</button>
+                                        </div>
                                     </div>
                                     <div className="msg-container">
                                         {
                                             isvalid === '' ?
                                                 <p className="msg none">Please provide json input</p>
                                                 : isvalid === "valid" ?
-                                                    <p className="msg valid">Valid</p>
+                                                    <p className="msg valid">Valid Json</p>
                                                     :
-                                                    <p className="msg invalid">Invalid</p>
+                                                    <p className="msg invalid">Invalid Json</p>
                                         }
-                                    </div>
-                                    <div className="res-container">
-                                        <label htmlFor="resulttxt">Json Formatted Data</label>
-                                        <textarea name="resulttxt" id="resultTxt" rows="8" spellCheck="false" title="Json Data Result" value={jsonResult} placeholder="Json data"></textarea>
-                                        <button type="button" className="btn btn-primary mr-2" onClick={() => handleCopy()}>{isCopied === "copied" ? "Copied" : "Copy"}</button>
                                     </div>
                                     <div className="clear"></div>
                                 </form>

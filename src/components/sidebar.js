@@ -88,6 +88,16 @@ const sidebar = () => (
                         <i className="fa fa-check side-item" aria-hidden="true"></i>
                         <a href="json-validator"><h6 >Json Validator</h6></a>
                     </div>
+                    <hr className="line" />
+                    <div className="card-inner-body-1">
+                        <i className="fa fa-check side-item" aria-hidden="true"></i>
+                        <a href="json-pretifier"><h6 >Json Pretifier</h6></a>
+                    </div>
+                    <hr className="line" />
+                    <div className="card-inner-body-1">
+                        <i className="fa fa-check side-item" aria-hidden="true"></i>
+                        <a href="json-to-xml"><h6 >JSON To XML</h6></a>
+                    </div>
                 </div>
             </div>
         </div>

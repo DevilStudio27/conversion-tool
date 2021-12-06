@@ -8,11 +8,14 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fas } from "@fortawesome/free-solid-svg-icons";
 
 import Header from "./header"
 import "./layout.css"
 import Footer from "./footer"
 
+library.add(fas);
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
