@@ -4,7 +4,7 @@
 
 <div align="center">
 
-![Made with Gatsby](https://img.shields.io/badge/-Made_with_Gatsby-663399?style=flat-square&logo=gatsby&logoColor=white)
+![Made with Gatsby](https://img.shields.io/badge/-Made_with_React-05bfff?style=flat-square&logo=react&logoColor=white)&nbsp;&nbsp;
 ![Built with Gatsby](https://img.shields.io/badge/-Built_with_Gatsby-663399?style=flat-square&logo=gatsby&logoColor=white)
 </div>
 
