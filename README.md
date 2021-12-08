@@ -2,6 +2,12 @@
 
 **_Conversion Tool - HostingSpell Internship_**
 
+<div align="center">
+
+![Made with Gatsby](https://img.shields.io/badge/-Made_with_Gatsby-663399?style=flat-square&logo=gatsby&logoColor=white)
+![Built with Gatsby](https://img.shields.io/badge/-Built_with_Gatsby-663399?style=flat-square&logo=gatsby&logoColor=white)
+</div>
+
 This is conversion tool made using react with gatsby framework, During internship period with HostingSpell Organization.
 
 ## Tools Available!
