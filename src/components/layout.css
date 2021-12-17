@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +17,17 @@ body {
     background-color: #0b0d39;
     padding: 5px;
 }
-
+main {
+    font-family: "Quicksand", sans-serif;
+}
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6 {
+    font-family: "Varela Round", sans-serif;
+}
 .top-margin {
     margin-bottom: 3rem;
 }
@@ -159,6 +172,8 @@ body {
 label {
     display: block;
     margin: 2px;
+    color: #0b0d39;
+    font-weight: 600;
 }
 
 #loading p {
@@ -231,7 +246,7 @@ label {
     font-size: 0.8em;
     color: #0b0d39;
     padding: 1px;
-    margin-top: 15px;
+    margin-top: 20px;
     text-align: center;
 }
 
@@ -327,6 +342,7 @@ textarea {
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 10px;
     align-items: start;
+    font-family: "Quicksand", sans-serif;
 }
 .json-container .res-title {
     margin-bottom: 10px;
@@ -373,6 +389,7 @@ textarea {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    font-family: "Quicksand", sans-serif;
 }
 .res-container .result-view {
     margin: 0 5px;
@@ -387,6 +404,7 @@ textarea {
 .pretifier-container {
     position: relative;
     width: 100%;
+    font-family: "Quicksand", sans-serif;
 }
 .pretifier-container .field-content {
     position: relative;
@@ -457,6 +475,7 @@ textarea {
     width: 100%;
     margin-top: 20px;
     padding: 5px 10px;
+    font-family: "Quicksand", sans-serif;
 }
 .result-container .result-view {
     border: 1px solid #0f8af9;
@@ -474,4 +493,12 @@ textarea {
 }
 .hidden {
     display: none;
+}
+.pie-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
