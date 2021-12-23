@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---cache-dev-404-page-js",
     "path": "/dev-404-page/",
-    "result": {"data":{"allSiteFunction":{"nodes":[]},"allSitePage":{"nodes":[{"path":"/amp-to-kva/"},{"path":"/amp-to-kw/"},{"path":"/amp-to-va/"},{"path":"/amp-to-vlt/"},{"path":"/amp-to-watt/"},{"path":"/ascii-to-text/"},{"path":"/decimal-to-hex/"},{"path":"/electricity-bill/"},{"path":"/hex-to-binary/"},{"path":"/hex-to-decimal/"},{"path":"/"},{"path":"/json-pretifier/"},{"path":"/json-to-xml/"},{"path":"/json-validator/"},{"path":"/pie-chart/"},{"path":"/text-to-ascii/"},{"path":"/watt-to-amp/"},{"path":"/watt-to-kva/"},{"path":"/watt-to-va/"},{"path":"/watt-to-vlt/"}]}},"pageContext":{}},
+    "result": {"data":{"allSiteFunction":{"nodes":[]},"allSitePage":{"nodes":[{"path":"/amp-to-kva/"},{"path":"/amp-to-kw/"},{"path":"/amp-to-va/"},{"path":"/amp-to-vlt/"},{"path":"/amp-to-watt/"},{"path":"/ascii-to-text/"},{"path":"/decimal-to-hex/"},{"path":"/electricity-bill/"},{"path":"/hex-to-binary/"},{"path":"/hex-to-decimal/"},{"path":"/"},{"path":"/json-pretifier/"},{"path":"/json-to-xml/"},{"path":"/json-validator/"},{"path":"/line-chart/"},{"path":"/pie-chart/"},{"path":"/scatter-plot/"},{"path":"/text-to-ascii/"},{"path":"/watt-to-amp/"},{"path":"/watt-to-kva/"},{"path":"/watt-to-va/"},{"path":"/watt-to-vlt/"}]}},"pageContext":{}},
     "staticQueryHashes": []}

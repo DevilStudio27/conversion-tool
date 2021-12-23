@@ -15,7 +15,7 @@
 exports.ssrComponents = {
   "component---cache-dev-404-page-js": preferDefault(__webpack_require__(/*! ./.cache/dev-404-page.js */ "./.cache/dev-404-page.js")),
   "component---src-pages-index-js": preferDefault(__webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js")),
-  "component---src-pages-pie-chart-js": preferDefault(__webpack_require__(/*! ./src/pages/pie-chart.js */ "./src/pages/pie-chart.js"))
+  "component---src-pages-scatter-plot-js": preferDefault(__webpack_require__(/*! ./src/pages/scatter-plot.js */ "./src/pages/scatter-plot.js"))
   }
 
 
@@ -22735,8 +22735,30 @@ __webpack_require__.r(__webpack_exports__);
  // import { Link } from "gatsby"
 
 const sidebar = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-  className: "col-md-4 rightside"
+  className: "col-md-3 rightside"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  className: "container"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  className: "card card1",
+  style: {
+    width: '100%'
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  className: "card-inner-heading"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", {
+  style: {
+    color: 'white'
+  }
+}, "Special Tools")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  className: "card-inner-body"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  className: "card-inner-body-1"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("i", {
+  className: "fa fa-check side-item",
+  "aria-hidden": "true"
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+  href: "/electricity-bill"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", null, "Electricity Bill"))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
   className: "container"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
   className: "card card1",
@@ -22856,18 +22878,9 @@ const sidebar = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElem
   style: {
     color: 'white'
   }
-}, "Special Tools")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+}, "JSON Tools")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
   className: "card-inner-body"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-  className: "card-inner-body-1"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("i", {
-  className: "fa fa-check side-item",
-  "aria-hidden": "true"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-  href: "/electricity-bill"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", null, "Electricity Bill")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("hr", {
-  className: "line"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
   className: "card-inner-body-1"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("i", {
   className: "fa fa-check side-item",
@@ -22892,7 +22905,29 @@ const sidebar = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElem
   "aria-hidden": "true"
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
   href: "/json-to-xml"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", null, "JSON To XML"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("hr", {
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", null, "JSON To XML"))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  className: "container"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  className: "card card1",
+  style: {
+    width: '100%'
+  }
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  className: "card-inner-heading"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", {
+  style: {
+    color: 'white'
+  }
+}, "Chart Tools")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  className: "card-inner-body"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  className: "card-inner-body-1"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("i", {
+  className: "fa fa-check side-item",
+  "aria-hidden": "true"
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+  href: "/pie-chart"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", null, "Pie Chart"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("hr", {
   className: "line"
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
   className: "card-inner-body-1"
@@ -22900,8 +22935,17 @@ const sidebar = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElem
   className: "fa fa-check side-item",
   "aria-hidden": "true"
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-  href: "/pie-chart"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", null, "Pie Charts")))))));
+  href: "/line-chart"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", null, "Line Chart"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("hr", {
+  className: "line"
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  className: "card-inner-body-1"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("i", {
+  className: "fa fa-check side-item",
+  "aria-hidden": "true"
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+  href: "/scatter-plot"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h6", null, "Scatter PLot Graph"))))))));
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (sidebar);
 
@@ -22974,7 +23018,7 @@ const IndexPage = () => {
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "row no-gutters"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col-md-8 leftside"
+    className: "col-md-9 leftside"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "left-heading"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
@@ -22996,10 +23040,10 @@ const IndexPage = () => {
 
 /***/ }),
 
-/***/ "./src/pages/pie-chart.js":
-/*!********************************!*\
-  !*** ./src/pages/pie-chart.js ***!
-  \********************************/
+/***/ "./src/pages/scatter-plot.js":
+/*!***********************************!*\
+  !*** ./src/pages/scatter-plot.js ***!
+  \***********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -23009,11 +23053,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/chart/PieChart.js");
-/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/polar/Pie.js");
-/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/component/Cell.js");
-/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/component/Tooltip.js");
-/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/component/Legend.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/chart/ScatterChart.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/cartesian/CartesianGrid.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/cartesian/XAxis.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/cartesian/YAxis.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/component/Tooltip.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/cartesian/Scatter.js");
+/* harmony import */ var recharts__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! recharts */ "./node_modules/recharts/es6/component/Legend.js");
 /* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/layout */ "./src/components/layout.js");
 /* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/seo */ "./src/components/seo.js");
 /* harmony import */ var _components_sidebar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/sidebar */ "./src/components/sidebar.js");
@@ -23021,30 +23067,22 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
-const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042'];
-const RADIAN = Math.PI / 180;
-
-const renderCustomizedLabel = ({
-  cx,
-  cy,
-  midAngle,
-  innerRadius,
-  outerRadius,
-  percent,
-  index
-}) => {
-  const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
-  const x = cx + radius * Math.cos(-midAngle * RADIAN);
-  const y = cy + radius * Math.sin(-midAngle * RADIAN);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("text", {
-    x: x + 2.5,
-    y: y + 1.5,
-    fill: "white",
-    textAnchor: x > cx ? 'start' : 'end',
-    dominantBaseline: "central"
-  }, `${(percent * 100).toFixed(0)}%`);
-};
+ // const data1 = [
+//     { x: 100, y: 200 },
+//     { x: 120, y: 100 },
+//     { x: 170, y: 300 },
+//     { x: 140, y: 250 },
+//     { x: 150, y: 400 },
+//     { x: 110, y: 280 },
+// ];
+// const data2 = [
+//     { x: 500, y: 800 },
+//     { x: 620, y: 500 },
+//     { x: 870, y: 400 },
+//     { x: 940, y: 850 },
+//     { x: 350, y: 700 },
+//     { x: 610, y: 580 },
+// ];
 
 const IndexPage = () => {
   const {
@@ -23056,49 +23094,111 @@ const IndexPage = () => {
     1: setTitle
   } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)('');
   const {
-    0: mLabel,
-    1: setLabel
+    0: xLabel,
+    1: setXLabel
   } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)('');
   const {
-    0: mValue,
-    1: setValue
+    0: yLabel,
+    1: setYLabel
   } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)('');
   const {
-    0: pie_data,
-    1: setPieData
+    0: xUnit,
+    1: setXUnit
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)('');
+  const {
+    0: yUnit,
+    1: setYUnit
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)('');
+  const {
+    0: s1Color,
+    1: setS1Color
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)('');
+  const {
+    0: s2Color,
+    1: setS2Color
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)('');
+  const {
+    0: s1Label,
+    1: setS1Label
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)('');
+  const {
+    0: s2Label,
+    1: setS2Label
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)('');
+  const {
+    0: x1Val,
+    1: setX1Val
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)('');
+  const {
+    0: y1Val,
+    1: setY1Val
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)('');
+  const {
+    0: x2Val,
+    1: setX2Val
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)('');
+  const {
+    0: y2Val,
+    1: setY2Val
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)('');
+  const {
+    0: s1Data,
+    1: setS1Data
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)([null]);
+  const {
+    0: s2Data,
+    1: setS2Data
   } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)([null]);
 
   const formatCallback = () => {
-    // var str = "name_1 name_2 name_3 name_4 name_5 name_6";
-    // var str1 = "1 2 3 4 5 6";
-    setPieData([null]);
+    setS1Data([null]);
+    setS2Data([null]);
     setLoad(false);
-    let temp = String(mLabel).split(" ");
-    let temp1 = String(mValue).split(" "); // const buildObject = (temp,temp1) => {
-    //    let obj = [];
+    let tempX1 = String(x1Val).split(" ");
+    let tempY1 = String(y1Val).split(" ");
+    let tempX2 = String(x2Val).split(" ");
+    let tempY2 = String(y2Val).split(" ");
 
-    for (var i = 0; i < temp.length && i < temp1.length; i++) {
-      let name = temp[i];
-      let score = temp1[i];
-      let query = {
-        "name": String(name),
-        "value": Number(score)
+    for (var i = 0; i < tempX1.length && i < tempY1.length && i < tempX2.length && i < tempY2.length; i++) {
+      let scoreX1 = tempX1[i];
+      let scoreY1 = tempY1[i];
+      let scoreX2 = tempX2[i];
+      let scoreY2 = tempY2[i];
+      let query1 = {
+        "x": Number(scoreX1),
+        "y": Number(scoreY1)
       };
-      setPieData(pie_data => pie_data.push(query));
+      let query2 = {
+        "x": Number(scoreX2),
+        "y": Number(scoreY2)
+      }; //     // setScatterData(scatter_data => scatter_data.push(query));
+
+      setS1Data(s1Data => [...s1Data, query1]);
+      setS2Data(s2Data => [...s2Data, query2]);
     }
 
     ;
-    console.log(pie_data); //    return obj;
-    // };
-    // console.log(buildObject(temp,temp1));
+    console.log(s1Data);
+    console.log(s2Data);
   };
 
   const clearValues = () => {
     setLoad(true);
     setTitle('');
-    setLabel('');
-    setValue('');
-    setPieData([null]);
+    setXLabel('');
+    setYLabel('');
+    setXUnit('');
+    setYUnit('');
+    setS1Color('');
+    setS2Color('');
+    setS1Label('');
+    setS2Label('');
+    setX1Val('');
+    setY1Val('');
+    setX2Val('');
+    setY2Val('');
+    setS1Data([null]);
+    setS2Data([null]);
   };
 
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_seo__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -23106,12 +23206,12 @@ const IndexPage = () => {
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "row no-gutters"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "col-md-8 leftside"
+    className: "col-md-9 leftside"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "left-heading"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "container text-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "Pie Chart Maker"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "Scatter Plot Graph"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "lead"
   }, "Conversion Tools By Premium Tools")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "container"
@@ -23130,6 +23230,7 @@ const IndexPage = () => {
   }, "Enter Title"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
     type: "text",
     name: "tabin",
+    placeholder: "Graph Title",
     id: "tabin",
     required: true,
     value: mTitle,
@@ -23138,34 +23239,170 @@ const IndexPage = () => {
     className: "input-controls"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("label", {
     htmlFor: "tabin"
-  }, "Enter Data Labels"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+  }, "X Axis Label:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
     type: "text",
     name: "tabin",
+    placeholder: "Graph Title",
     id: "tabin",
     required: true,
-    value: mLabel,
-    multiple: true,
-    onChange: e => setLabel(e.target.value)
+    value: xLabel,
+    onChange: e => setXLabel(e.target.value)
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "input-controls"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("label", {
     htmlFor: "tabin"
-  }, "Enter Data Values"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+  }, "Y Axis Label:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    type: "text",
+    name: "tabin",
+    placeholder: "Graph Title",
+    id: "tabin",
+    required: true,
+    value: yLabel,
+    onChange: e => setYLabel(e.target.value)
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", {
+    className: "line"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "field-content"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "series-input-controls"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "input-controls"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", {
+    className: "title"
+  }, "Series 1:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    type: "text",
+    name: "tabin",
+    placeholder: "Graph Title",
+    id: "tabin",
+    required: true,
+    value: s1Label,
+    onChange: e => setS1Label(e.target.value)
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    type: "color",
+    name: "tabin",
+    className: "input-color",
+    title: "Series Color",
+    required: true,
+    id: "tabin",
+    value: s1Color,
+    onChange: e => setS1Color(e.target.value)
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "input-controls"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("label", {
+    htmlFor: "tabin"
+  }, "X Axis Data:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
     type: "text",
     name: "tabin",
     id: "tabin",
+    placeholder: "eg: 2 3 6 5",
     required: true,
-    value: mValue,
+    value: x1Val,
     multiple: true,
-    onChange: e => setValue(e.target.value)
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    onChange: e => setX1Val(e.target.value)
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    type: "text",
+    name: "tabin",
+    placeholder: "X Axis Units",
+    id: "tabin",
+    required: true,
+    value: xUnit,
+    onChange: e => setXUnit(e.target.value)
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "input-controls"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("label", {
+    htmlFor: "tabin"
+  }, "Y Axis Data:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    type: "text",
+    name: "tabin",
+    id: "tabin",
+    placeholder: "eg: 2 3 6 5",
+    required: true,
+    value: y1Val,
+    multiple: true,
+    onChange: e => setY1Val(e.target.value)
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    type: "text",
+    name: "tabin",
+    placeholder: "Y Axis Units",
+    id: "tabin",
+    required: true,
+    value: yUnit,
+    onChange: e => setYUnit(e.target.value)
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", {
+    className: "line"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "field-content"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "series-input-controls"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "input-controls"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", {
+    className: "title"
+  }, "Series 2:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    type: "text",
+    name: "tabin",
+    placeholder: "Graph Title",
+    id: "tabin",
+    required: true,
+    value: s2Label,
+    onChange: e => setS2Label(e.target.value)
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    type: "color",
+    name: "tabin",
+    className: "input-color",
+    title: "Series Color",
+    required: true,
+    id: "tabin",
+    value: s2Color,
+    onChange: e => setS2Color(e.target.value)
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "input-controls"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("label", {
+    htmlFor: "tabin"
+  }, "X Axis Data:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    type: "text",
+    name: "tabin",
+    id: "tabin",
+    placeholder: "eg: 2 3 6 5",
+    required: true,
+    value: x2Val,
+    multiple: true,
+    onChange: e => setX2Val(e.target.value)
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    type: "text",
+    name: "tabin",
+    placeholder: "X Axis Units",
+    id: "tabin",
+    required: true,
+    defaultValue: xUnit
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "input-controls"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("label", {
+    htmlFor: "tabin"
+  }, "Y Axis Data:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    type: "text",
+    name: "tabin",
+    id: "tabin",
+    placeholder: "eg: 2 3 6 5",
+    required: true,
+    value: y2Val,
+    multiple: true,
+    onChange: e => setY2Val(e.target.value)
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    type: "text",
+    name: "tabin",
+    placeholder: "Y Axis Units",
+    id: "tabin",
+    required: true,
+    defaultValue: yUnit
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "btn-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
     type: "button",
-    title: "Show Pie Chart",
+    title: "Show Scatter Chart",
     className: "btn btn-primary mr-2",
     onClick: () => formatCallback()
-  }, "Show Pie Chart"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+  }, "Show Scatter Chart"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
     type: "button",
     title: "Clear",
     name: "clear",
@@ -23173,34 +23410,41 @@ const IndexPage = () => {
     className: "btn btn-secondary",
     onClick: () => clearValues()
   }, "Clear")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "pie-container"
+    className: "chart-container"
   }, !loader ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "pie-content"
+    className: "chart-content"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
-    className: "pie_title"
-  }, mTitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(recharts__WEBPACK_IMPORTED_MODULE_4__.PieChart, {
+    className: "chart_title"
+  }, mTitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(recharts__WEBPACK_IMPORTED_MODULE_4__.ScatterChart, {
     width: 400,
     height: 400,
-    key: `p_c${pie_data.length}`
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(recharts__WEBPACK_IMPORTED_MODULE_5__.Pie, {
-    data: pie_data,
-    key: `p_${pie_data.length}`,
-    cx: "50%",
-    cy: "50%",
-    labelLine: false,
-    label: renderCustomizedLabel,
-    outerRadius: 100,
-    fill: "#8884d8",
-    dataKey: "value"
-  }, pie_data.map((entry, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(recharts__WEBPACK_IMPORTED_MODULE_6__.Cell, {
-    key: `cell-${index}`,
-    fill: COLORS[index % COLORS.length]
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(recharts__WEBPACK_IMPORTED_MODULE_7__.Tooltip, {
-    wrapperStyle: {
-      fontSize: '14px',
-      padding: 0
+    margin: {
+      top: 15,
+      bottom: 8
     }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(recharts__WEBPACK_IMPORTED_MODULE_8__.Legend, null))) : " "))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_sidebar__WEBPACK_IMPORTED_MODULE_3__["default"], null)));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(recharts__WEBPACK_IMPORTED_MODULE_5__.CartesianGrid, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(recharts__WEBPACK_IMPORTED_MODULE_6__.XAxis, {
+    type: "number",
+    dataKey: "x",
+    name: xLabel,
+    unit: xUnit
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(recharts__WEBPACK_IMPORTED_MODULE_7__.YAxis, {
+    type: "number",
+    dataKey: "y",
+    name: yLabel,
+    unit: yUnit
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(recharts__WEBPACK_IMPORTED_MODULE_8__.Tooltip, {
+    cursor: {
+      strokeDasharray: '3 3'
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(recharts__WEBPACK_IMPORTED_MODULE_9__.Scatter, {
+    name: s1Label === " " ? "Series 1" : s1Label,
+    data: s1Data,
+    fill: s1Color === "" ? "#05bffc" : s1Color
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(recharts__WEBPACK_IMPORTED_MODULE_9__.Scatter, {
+    name: s2Label === " " ? "Series 2" : s2Label,
+    data: s2Data,
+    fill: s2Color === "" ? "#5f27cd" : s2Color
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(recharts__WEBPACK_IMPORTED_MODULE_10__.Legend, null))) : " "))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_sidebar__WEBPACK_IMPORTED_MODULE_3__["default"], null)));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IndexPage);
@@ -31389,50 +31633,6 @@ module.exports = max;
 
 /***/ }),
 
-/***/ "./node_modules/lodash/maxBy.js":
-/*!**************************************!*\
-  !*** ./node_modules/lodash/maxBy.js ***!
-  \**************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-var baseExtremum = __webpack_require__(/*! ./_baseExtremum */ "./node_modules/lodash/_baseExtremum.js"),
-    baseGt = __webpack_require__(/*! ./_baseGt */ "./node_modules/lodash/_baseGt.js"),
-    baseIteratee = __webpack_require__(/*! ./_baseIteratee */ "./node_modules/lodash/_baseIteratee.js");
-
-/**
- * This method is like `_.max` except that it accepts `iteratee` which is
- * invoked for each element in `array` to generate the criterion by which
- * the value is ranked. The iteratee is invoked with one argument: (value).
- *
- * @static
- * @memberOf _
- * @since 4.0.0
- * @category Math
- * @param {Array} array The array to iterate over.
- * @param {Function} [iteratee=_.identity] The iteratee invoked per element.
- * @returns {*} Returns the maximum value.
- * @example
- *
- * var objects = [{ 'n': 1 }, { 'n': 2 }];
- *
- * _.maxBy(objects, function(o) { return o.n; });
- * // => { 'n': 2 }
- *
- * // The `_.property` iteratee shorthand.
- * _.maxBy(objects, 'n');
- * // => { 'n': 2 }
- */
-function maxBy(array, iteratee) {
-  return (array && array.length)
-    ? baseExtremum(array, baseIteratee(iteratee, 2), baseGt)
-    : undefined;
-}
-
-module.exports = maxBy;
-
-
-/***/ }),
-
 /***/ "./node_modules/lodash/memoize.js":
 /*!****************************************!*\
   !*** ./node_modules/lodash/memoize.js ***!
@@ -31600,50 +31800,6 @@ function min(array) {
 }
 
 module.exports = min;
-
-
-/***/ }),
-
-/***/ "./node_modules/lodash/minBy.js":
-/*!**************************************!*\
-  !*** ./node_modules/lodash/minBy.js ***!
-  \**************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-var baseExtremum = __webpack_require__(/*! ./_baseExtremum */ "./node_modules/lodash/_baseExtremum.js"),
-    baseIteratee = __webpack_require__(/*! ./_baseIteratee */ "./node_modules/lodash/_baseIteratee.js"),
-    baseLt = __webpack_require__(/*! ./_baseLt */ "./node_modules/lodash/_baseLt.js");
-
-/**
- * This method is like `_.min` except that it accepts `iteratee` which is
- * invoked for each element in `array` to generate the criterion by which
- * the value is ranked. The iteratee is invoked with one argument: (value).
- *
- * @static
- * @memberOf _
- * @since 4.0.0
- * @category Math
- * @param {Array} array The array to iterate over.
- * @param {Function} [iteratee=_.identity] The iteratee invoked per element.
- * @returns {*} Returns the minimum value.
- * @example
- *
- * var objects = [{ 'n': 1 }, { 'n': 2 }];
- *
- * _.minBy(objects, function(o) { return o.n; });
- * // => { 'n': 1 }
- *
- * // The `_.property` iteratee shorthand.
- * _.minBy(objects, 'n');
- * // => { 'n': 1 }
- */
-function minBy(array, iteratee) {
-  return (array && array.length)
-    ? baseExtremum(array, baseIteratee(iteratee, 2), baseLt)
-    : undefined;
-}
-
-module.exports = minBy;
 
 
 /***/ }),
@@ -65150,6 +65306,552 @@ CartesianAxis.defaultProps = {
 
 /***/ }),
 
+/***/ "./node_modules/recharts/es6/cartesian/CartesianGrid.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/recharts/es6/cartesian/CartesianGrid.js ***!
+  \**************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "CartesianGrid": () => (/* binding */ CartesianGrid)
+/* harmony export */ });
+/* harmony import */ var lodash_isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash/isFunction */ "./node_modules/lodash/isFunction.js");
+/* harmony import */ var lodash_isFunction__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash_isFunction__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _util_DataUtils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../util/DataUtils */ "./node_modules/recharts/es6/util/DataUtils.js");
+/* harmony import */ var _util_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../util/types */ "./node_modules/recharts/es6/util/types.js");
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+/**
+ * @fileOverview Cartesian Grid
+ */
+
+
+
+var CartesianGrid = /*#__PURE__*/function (_PureComponent) {
+  _inherits(CartesianGrid, _PureComponent);
+
+  var _super = _createSuper(CartesianGrid);
+
+  function CartesianGrid() {
+    _classCallCheck(this, CartesianGrid);
+
+    return _super.apply(this, arguments);
+  }
+
+  _createClass(CartesianGrid, [{
+    key: "renderHorizontal",
+    value:
+    /**
+     * Draw the horizontal grid lines
+     * @param {Array} horizontalPoints either passed in as props or generated from function
+     * @return {Group} Horizontal lines
+     */
+    function renderHorizontal(horizontalPoints) {
+      var _this = this;
+
+      var _this$props = this.props,
+          x = _this$props.x,
+          width = _this$props.width,
+          horizontal = _this$props.horizontal;
+
+      if (!horizontalPoints || !horizontalPoints.length) {
+        return null;
+      }
+
+      var items = horizontalPoints.map(function (entry, i) {
+        var props = _objectSpread(_objectSpread({}, _this.props), {}, {
+          x1: x,
+          y1: entry,
+          x2: x + width,
+          y2: entry,
+          key: "line-".concat(i),
+          index: i
+        });
+
+        return CartesianGrid.renderLineItem(horizontal, props);
+      });
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("g", {
+        className: "recharts-cartesian-grid-horizontal"
+      }, items);
+    }
+    /**
+     * Draw vertical grid lines
+     * @param {Array} verticalPoints either passed in as props or generated from function
+     * @return {Group} Vertical lines
+     */
+
+  }, {
+    key: "renderVertical",
+    value: function renderVertical(verticalPoints) {
+      var _this2 = this;
+
+      var _this$props2 = this.props,
+          y = _this$props2.y,
+          height = _this$props2.height,
+          vertical = _this$props2.vertical;
+
+      if (!verticalPoints || !verticalPoints.length) {
+        return null;
+      }
+
+      var items = verticalPoints.map(function (entry, i) {
+        var props = _objectSpread(_objectSpread({}, _this2.props), {}, {
+          x1: entry,
+          y1: y,
+          x2: entry,
+          y2: y + height,
+          key: "line-".concat(i),
+          index: i
+        });
+
+        return CartesianGrid.renderLineItem(vertical, props);
+      });
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("g", {
+        className: "recharts-cartesian-grid-vertical"
+      }, items);
+    }
+    /**
+     * Draw vertical grid stripes filled by colors
+     * @param {Array} verticalPoints either passed in as props or generated from function
+     * @return {Group} Vertical stripes
+     */
+
+  }, {
+    key: "renderVerticalStripes",
+    value: function renderVerticalStripes(verticalPoints) {
+      var verticalFill = this.props.verticalFill;
+
+      if (!verticalFill || !verticalFill.length) {
+        return null;
+      }
+
+      var _this$props3 = this.props,
+          fillOpacity = _this$props3.fillOpacity,
+          x = _this$props3.x,
+          y = _this$props3.y,
+          width = _this$props3.width,
+          height = _this$props3.height;
+      var verticalPointsUpdated = verticalPoints.slice().sort(function (a, b) {
+        return a - b;
+      });
+
+      if (x !== verticalPointsUpdated[0]) {
+        verticalPointsUpdated.unshift(0);
+      }
+
+      var items = verticalPointsUpdated.map(function (entry, i) {
+        var lineWidth = verticalPointsUpdated[i + 1] ? verticalPointsUpdated[i + 1] - entry : x + width - entry;
+
+        if (lineWidth <= 0) {
+          return null;
+        }
+
+        var colorIndex = i % verticalFill.length;
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("rect", {
+          key: "react-".concat(i) // eslint-disable-line react/no-array-index-key
+          ,
+          x: Math.round(entry + x - x),
+          y: y,
+          width: lineWidth,
+          height: height,
+          stroke: "none",
+          fill: verticalFill[colorIndex],
+          fillOpacity: fillOpacity,
+          className: "recharts-cartesian-grid-bg"
+        });
+      });
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("g", {
+        className: "recharts-cartesian-gridstripes-vertical"
+      }, items);
+    }
+    /**
+     * Draw horizontal grid stripes filled by colors
+     * @param {Array} horizontalPoints either passed in as props or generated from function
+     * @return {Group} Horizontal stripes
+     */
+
+  }, {
+    key: "renderHorizontalStripes",
+    value: function renderHorizontalStripes(horizontalPoints) {
+      var horizontalFill = this.props.horizontalFill;
+
+      if (!horizontalFill || !horizontalFill.length) {
+        return null;
+      }
+
+      var _this$props4 = this.props,
+          fillOpacity = _this$props4.fillOpacity,
+          x = _this$props4.x,
+          y = _this$props4.y,
+          width = _this$props4.width,
+          height = _this$props4.height;
+      var horizontalPointsUpdated = horizontalPoints.slice().sort(function (a, b) {
+        return a - b;
+      });
+
+      if (y !== horizontalPointsUpdated[0]) {
+        horizontalPointsUpdated.unshift(0);
+      }
+
+      var items = horizontalPointsUpdated.map(function (entry, i) {
+        var lineHeight = horizontalPointsUpdated[i + 1] ? horizontalPointsUpdated[i + 1] - entry : y + height - entry;
+
+        if (lineHeight <= 0) {
+          return null;
+        }
+
+        var colorIndex = i % horizontalFill.length;
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("rect", {
+          key: "react-".concat(i) // eslint-disable-line react/no-array-index-key
+          ,
+          y: Math.round(entry + y - y),
+          x: x,
+          height: lineHeight,
+          width: width,
+          stroke: "none",
+          fill: horizontalFill[colorIndex],
+          fillOpacity: fillOpacity,
+          className: "recharts-cartesian-grid-bg"
+        });
+      });
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("g", {
+        className: "recharts-cartesian-gridstripes-horizontal"
+      }, items);
+    }
+  }, {
+    key: "renderBackground",
+    value: function renderBackground() {
+      var fill = this.props.fill;
+
+      if (!fill || fill === 'none') {
+        return null;
+      }
+
+      var _this$props5 = this.props,
+          fillOpacity = _this$props5.fillOpacity,
+          x = _this$props5.x,
+          y = _this$props5.y,
+          width = _this$props5.width,
+          height = _this$props5.height;
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("rect", {
+        x: x,
+        y: y,
+        width: width,
+        height: height,
+        stroke: "none",
+        fill: fill,
+        fillOpacity: fillOpacity,
+        className: "recharts-cartesian-grid-bg"
+      });
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this$props6 = this.props,
+          x = _this$props6.x,
+          y = _this$props6.y,
+          width = _this$props6.width,
+          height = _this$props6.height,
+          horizontal = _this$props6.horizontal,
+          vertical = _this$props6.vertical,
+          horizontalCoordinatesGenerator = _this$props6.horizontalCoordinatesGenerator,
+          verticalCoordinatesGenerator = _this$props6.verticalCoordinatesGenerator,
+          xAxis = _this$props6.xAxis,
+          yAxis = _this$props6.yAxis,
+          offset = _this$props6.offset,
+          chartWidth = _this$props6.chartWidth,
+          chartHeight = _this$props6.chartHeight;
+
+      if (!(0,_util_DataUtils__WEBPACK_IMPORTED_MODULE_2__.isNumber)(width) || width <= 0 || !(0,_util_DataUtils__WEBPACK_IMPORTED_MODULE_2__.isNumber)(height) || height <= 0 || !(0,_util_DataUtils__WEBPACK_IMPORTED_MODULE_2__.isNumber)(x) || x !== +x || !(0,_util_DataUtils__WEBPACK_IMPORTED_MODULE_2__.isNumber)(y) || y !== +y) {
+        return null;
+      }
+
+      var _this$props7 = this.props,
+          horizontalPoints = _this$props7.horizontalPoints,
+          verticalPoints = _this$props7.verticalPoints; // No horizontal points are specified
+
+      if ((!horizontalPoints || !horizontalPoints.length) && lodash_isFunction__WEBPACK_IMPORTED_MODULE_0___default()(horizontalCoordinatesGenerator)) {
+        horizontalPoints = horizontalCoordinatesGenerator({
+          yAxis: yAxis,
+          width: chartWidth,
+          height: chartHeight,
+          offset: offset
+        });
+      } // No vertical points are specified
+
+
+      if ((!verticalPoints || !verticalPoints.length) && lodash_isFunction__WEBPACK_IMPORTED_MODULE_0___default()(verticalCoordinatesGenerator)) {
+        verticalPoints = verticalCoordinatesGenerator({
+          xAxis: xAxis,
+          width: chartWidth,
+          height: chartHeight,
+          offset: offset
+        });
+      }
+
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("g", {
+        className: "recharts-cartesian-grid"
+      }, this.renderBackground(), horizontal && this.renderHorizontal(horizontalPoints), vertical && this.renderVertical(verticalPoints), horizontal && this.renderHorizontalStripes(horizontalPoints), vertical && this.renderVerticalStripes(verticalPoints));
+    }
+  }], [{
+    key: "renderLineItem",
+    value: function renderLineItem(option, props) {
+      var lineItem;
+
+      if ( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().isValidElement(option)) {
+        lineItem = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().cloneElement(option, props);
+      } else if (lodash_isFunction__WEBPACK_IMPORTED_MODULE_0___default()(option)) {
+        lineItem = option(props);
+      } else {
+        var x1 = props.x1,
+            y1 = props.y1,
+            x2 = props.x2,
+            y2 = props.y2,
+            key = props.key,
+            others = _objectWithoutProperties(props, ["x1", "y1", "x2", "y2", "key"]);
+
+        lineItem = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("line", _extends({}, (0,_util_types__WEBPACK_IMPORTED_MODULE_3__.filterProps)(others), {
+          x1: x1,
+          y1: y1,
+          x2: x2,
+          y2: y2,
+          fill: "none",
+          key: key
+        }));
+      }
+
+      return lineItem;
+    }
+  }]);
+
+  return CartesianGrid;
+}(react__WEBPACK_IMPORTED_MODULE_1__.PureComponent);
+CartesianGrid.displayName = 'CartesianGrid';
+CartesianGrid.defaultProps = {
+  horizontal: true,
+  vertical: true,
+  // The ordinates of horizontal grid lines
+  horizontalPoints: [],
+  // The abscissas of vertical grid lines
+  verticalPoints: [],
+  stroke: '#ccc',
+  fill: 'none',
+  // The fill of colors of grid lines
+  verticalFill: [],
+  horizontalFill: []
+};
+
+/***/ }),
+
+/***/ "./node_modules/recharts/es6/cartesian/ErrorBar.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/recharts/es6/cartesian/ErrorBar.js ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "ErrorBar": () => (/* binding */ ErrorBar)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _container_Layer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../container/Layer */ "./node_modules/recharts/es6/container/Layer.js");
+/* harmony import */ var _util_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../util/types */ "./node_modules/recharts/es6/util/types.js");
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+/**
+ * @fileOverview Render a group of error bar
+ */
+
+
+
+function ErrorBar(props) {
+  var offset = props.offset,
+      layout = props.layout,
+      width = props.width,
+      dataKey = props.dataKey,
+      data = props.data,
+      dataPointFormatter = props.dataPointFormatter,
+      xAxis = props.xAxis,
+      yAxis = props.yAxis,
+      others = _objectWithoutProperties(props, ["offset", "layout", "width", "dataKey", "data", "dataPointFormatter", "xAxis", "yAxis"]);
+
+  var svgProps = (0,_util_types__WEBPACK_IMPORTED_MODULE_1__.filterProps)(others);
+  var errorBars = data.map(function (entry, i) {
+    var _dataPointFormatter = dataPointFormatter(entry, dataKey),
+        x = _dataPointFormatter.x,
+        y = _dataPointFormatter.y,
+        value = _dataPointFormatter.value,
+        errorVal = _dataPointFormatter.errorVal;
+
+    if (!errorVal) {
+      return null;
+    }
+
+    var lineCoordinates = [];
+    var lowBound, highBound;
+
+    if (Array.isArray(errorVal)) {
+      var _errorVal = _slicedToArray(errorVal, 2);
+
+      lowBound = _errorVal[0];
+      highBound = _errorVal[1];
+    } else {
+      lowBound = highBound = errorVal;
+    }
+
+    if (layout === 'vertical') {
+      // error bar for horizontal charts, the y is fixed, x is a range value
+      var scale = xAxis.scale;
+      var yMid = y + offset;
+      var yMin = yMid + width;
+      var yMax = yMid - width;
+      var xMin = scale(value - lowBound);
+      var xMax = scale(value + highBound); // the right line of |--|
+
+      lineCoordinates.push({
+        x1: xMax,
+        y1: yMin,
+        x2: xMax,
+        y2: yMax
+      }); // the middle line of |--|
+
+      lineCoordinates.push({
+        x1: xMin,
+        y1: yMid,
+        x2: xMax,
+        y2: yMid
+      }); // the left line of |--|
+
+      lineCoordinates.push({
+        x1: xMin,
+        y1: yMin,
+        x2: xMin,
+        y2: yMax
+      });
+    } else if (layout === 'horizontal') {
+      // error bar for horizontal charts, the x is fixed, y is a range value
+      var _scale = yAxis.scale;
+      var xMid = x + offset;
+
+      var _xMin = xMid - width;
+
+      var _xMax = xMid + width;
+
+      var _yMin = _scale(value - lowBound);
+
+      var _yMax = _scale(value + highBound); // the top line
+
+
+      lineCoordinates.push({
+        x1: _xMin,
+        y1: _yMax,
+        x2: _xMax,
+        y2: _yMax
+      }); // the middle line
+
+      lineCoordinates.push({
+        x1: xMid,
+        y1: _yMin,
+        x2: xMid,
+        y2: _yMax
+      }); // the bottom line
+
+      lineCoordinates.push({
+        x1: _xMin,
+        y1: _yMin,
+        x2: _xMax,
+        y2: _yMin
+      });
+    }
+
+    return (
+      /*#__PURE__*/
+      // eslint-disable-next-line react/no-array-index-key
+      react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_container_Layer__WEBPACK_IMPORTED_MODULE_2__.Layer, _extends({
+        className: "recharts-errorBar",
+        key: "bar-".concat(i)
+      }, svgProps), lineCoordinates.map(function (coordinates, index) {
+        return (
+          /*#__PURE__*/
+          // eslint-disable-next-line react/no-array-index-key
+          react__WEBPACK_IMPORTED_MODULE_0___default().createElement("line", _extends({}, coordinates, {
+            key: "line-".concat(index)
+          }))
+        );
+      }))
+    );
+  });
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_container_Layer__WEBPACK_IMPORTED_MODULE_2__.Layer, {
+    className: "recharts-errorBars"
+  }, errorBars);
+}
+ErrorBar.defaultProps = {
+  stroke: 'black',
+  strokeWidth: 1.5,
+  width: 5,
+  offset: 0,
+  layout: 'horizontal'
+};
+ErrorBar.displayName = 'ErrorBar';
+
+/***/ }),
+
 /***/ "./node_modules/recharts/es6/cartesian/ReferenceArea.js":
 /*!**************************************************************!*\
   !*** ./node_modules/recharts/es6/cartesian/ReferenceArea.js ***!
@@ -65663,53 +66365,674 @@ ReferenceLine.defaultProps = {
 
 /***/ }),
 
-/***/ "./node_modules/recharts/es6/chart/PieChart.js":
-/*!*****************************************************!*\
-  !*** ./node_modules/recharts/es6/chart/PieChart.js ***!
-  \*****************************************************/
+/***/ "./node_modules/recharts/es6/cartesian/Scatter.js":
+/*!********************************************************!*\
+  !*** ./node_modules/recharts/es6/cartesian/Scatter.js ***!
+  \********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "PieChart": () => (/* binding */ PieChart)
+/* harmony export */   "Scatter": () => (/* binding */ Scatter)
 /* harmony export */ });
-/* harmony import */ var _generateCategoricalChart__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./generateCategoricalChart */ "./node_modules/recharts/es6/chart/generateCategoricalChart.js");
-/* harmony import */ var _polar_PolarAngleAxis__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../polar/PolarAngleAxis */ "./node_modules/recharts/es6/polar/PolarAngleAxis.js");
-/* harmony import */ var _polar_PolarRadiusAxis__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../polar/PolarRadiusAxis */ "./node_modules/recharts/es6/polar/PolarRadiusAxis.js");
-/* harmony import */ var _util_PolarUtils__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../util/PolarUtils */ "./node_modules/recharts/es6/util/PolarUtils.js");
-/* harmony import */ var _polar_Pie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../polar/Pie */ "./node_modules/recharts/es6/polar/Pie.js");
+/* harmony import */ var lodash_isEqual__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash/isEqual */ "./node_modules/lodash/isEqual.js");
+/* harmony import */ var lodash_isEqual__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash_isEqual__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var lodash_isFunction__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lodash/isFunction */ "./node_modules/lodash/isFunction.js");
+/* harmony import */ var lodash_isFunction__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(lodash_isFunction__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var lodash_isNil__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash/isNil */ "./node_modules/lodash/isNil.js");
+/* harmony import */ var lodash_isNil__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash_isNil__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_smooth__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-smooth */ "./node_modules/react-smooth/es6/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _container_Layer__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../container/Layer */ "./node_modules/recharts/es6/container/Layer.js");
+/* harmony import */ var _component_LabelList__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../component/LabelList */ "./node_modules/recharts/es6/component/LabelList.js");
+/* harmony import */ var _util_ReactUtils__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../util/ReactUtils */ "./node_modules/recharts/es6/util/ReactUtils.js");
+/* harmony import */ var _util_Global__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../util/Global */ "./node_modules/recharts/es6/util/Global.js");
+/* harmony import */ var _ZAxis__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./ZAxis */ "./node_modules/recharts/es6/cartesian/ZAxis.js");
+/* harmony import */ var _shape_Curve__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../shape/Curve */ "./node_modules/recharts/es6/shape/Curve.js");
+/* harmony import */ var _shape_Symbols__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../shape/Symbols */ "./node_modules/recharts/es6/shape/Symbols.js");
+/* harmony import */ var _ErrorBar__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./ErrorBar */ "./node_modules/recharts/es6/cartesian/ErrorBar.js");
+/* harmony import */ var _component_Cell__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../component/Cell */ "./node_modules/recharts/es6/component/Cell.js");
+/* harmony import */ var _util_DataUtils__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../util/DataUtils */ "./node_modules/recharts/es6/util/DataUtils.js");
+/* harmony import */ var _util_ChartUtils__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../util/ChartUtils */ "./node_modules/recharts/es6/util/ChartUtils.js");
+/* harmony import */ var _util_types__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../util/types */ "./node_modules/recharts/es6/util/types.js");
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+
+
+
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
 /**
- * @fileOverview Pie Chart
+ * @fileOverview Render a group of scatters
  */
 
 
 
 
 
-var PieChart = (0,_generateCategoricalChart__WEBPACK_IMPORTED_MODULE_0__.generateCategoricalChart)({
-  chartName: 'PieChart',
-  GraphicalChild: _polar_Pie__WEBPACK_IMPORTED_MODULE_1__.Pie,
-  validateTooltipEventTypes: ['item'],
-  defaultTooltipEventType: 'item',
-  legendContent: 'children',
-  axisComponents: [{
-    axisType: 'angleAxis',
-    AxisComp: _polar_PolarAngleAxis__WEBPACK_IMPORTED_MODULE_2__.PolarAngleAxis
-  }, {
-    axisType: 'radiusAxis',
-    AxisComp: _polar_PolarRadiusAxis__WEBPACK_IMPORTED_MODULE_3__.PolarRadiusAxis
-  }],
-  formatAxisMap: _util_PolarUtils__WEBPACK_IMPORTED_MODULE_4__.formatAxisMap,
-  defaultProps: {
-    layout: 'centric',
-    startAngle: 0,
-    endAngle: 360,
-    cx: '50%',
-    cy: '50%',
-    innerRadius: 0,
-    outerRadius: '80%'
+
+
+
+
+
+
+
+
+
+
+var Scatter = /*#__PURE__*/function (_PureComponent) {
+  _inherits(Scatter, _PureComponent);
+
+  var _super = _createSuper(Scatter);
+
+  function Scatter() {
+    var _this;
+
+    _classCallCheck(this, Scatter);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _super.call.apply(_super, [this].concat(args));
+    _this.state = {
+      isAnimationFinished: false
+    };
+
+    _this.handleAnimationEnd = function () {
+      _this.setState({
+        isAnimationFinished: true
+      });
+    };
+
+    _this.handleAnimationStart = function () {
+      _this.setState({
+        isAnimationFinished: false
+      });
+    };
+
+    _this.id = (0,_util_DataUtils__WEBPACK_IMPORTED_MODULE_6__.uniqueId)('recharts-scatter-');
+    return _this;
   }
+
+  _createClass(Scatter, [{
+    key: "renderSymbolsStatically",
+    value: function renderSymbolsStatically(points) {
+      var _this2 = this;
+
+      var _this$props = this.props,
+          shape = _this$props.shape,
+          activeShape = _this$props.activeShape,
+          activeIndex = _this$props.activeIndex;
+      var baseProps = (0,_util_types__WEBPACK_IMPORTED_MODULE_7__.filterProps)(this.props);
+      return points.map(function (entry, i) {
+        var props = _objectSpread(_objectSpread({
+          key: "symbol-".concat(i)
+        }, baseProps), entry);
+
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default().createElement(_container_Layer__WEBPACK_IMPORTED_MODULE_8__.Layer, _extends({
+          className: "recharts-scatter-symbol"
+        }, (0,_util_types__WEBPACK_IMPORTED_MODULE_7__.adaptEventsOfChild)(_this2.props, entry, i), {
+          key: "symbol-".concat(i) // eslint-disable-line react/no-array-index-key
+
+        }), Scatter.renderSymbolItem(activeIndex === i ? activeShape : shape, props));
+      });
+    }
+  }, {
+    key: "renderSymbolsWithAnimation",
+    value: function renderSymbolsWithAnimation() {
+      var _this3 = this;
+
+      var _this$props2 = this.props,
+          points = _this$props2.points,
+          isAnimationActive = _this$props2.isAnimationActive,
+          animationBegin = _this$props2.animationBegin,
+          animationDuration = _this$props2.animationDuration,
+          animationEasing = _this$props2.animationEasing,
+          animationId = _this$props2.animationId;
+      var prevPoints = this.state.prevPoints;
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default().createElement(react_smooth__WEBPACK_IMPORTED_MODULE_4__["default"], {
+        begin: animationBegin,
+        duration: animationDuration,
+        isActive: isAnimationActive,
+        easing: animationEasing,
+        from: {
+          t: 0
+        },
+        to: {
+          t: 1
+        },
+        key: "pie-".concat(animationId),
+        onAnimationEnd: this.handleAnimationEnd,
+        onAnimationStart: this.handleAnimationStart
+      }, function (_ref) {
+        var t = _ref.t;
+        var stepData = points.map(function (entry, index) {
+          var prev = prevPoints && prevPoints[index];
+
+          if (prev) {
+            var interpolatorCx = (0,_util_DataUtils__WEBPACK_IMPORTED_MODULE_6__.interpolateNumber)(prev.cx, entry.cx);
+            var interpolatorCy = (0,_util_DataUtils__WEBPACK_IMPORTED_MODULE_6__.interpolateNumber)(prev.cy, entry.cy);
+            var interpolatorSize = (0,_util_DataUtils__WEBPACK_IMPORTED_MODULE_6__.interpolateNumber)(prev.size, entry.size);
+            return _objectSpread(_objectSpread({}, entry), {}, {
+              cx: interpolatorCx(t),
+              cy: interpolatorCy(t),
+              size: interpolatorSize(t)
+            });
+          }
+
+          var interpolator = (0,_util_DataUtils__WEBPACK_IMPORTED_MODULE_6__.interpolateNumber)(0, entry.size);
+          return _objectSpread(_objectSpread({}, entry), {}, {
+            size: interpolator(t)
+          });
+        });
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default().createElement(_container_Layer__WEBPACK_IMPORTED_MODULE_8__.Layer, null, _this3.renderSymbolsStatically(stepData));
+      });
+    }
+  }, {
+    key: "renderSymbols",
+    value: function renderSymbols() {
+      var _this$props3 = this.props,
+          points = _this$props3.points,
+          isAnimationActive = _this$props3.isAnimationActive;
+      var prevPoints = this.state.prevPoints;
+
+      if (isAnimationActive && points && points.length && (!prevPoints || !lodash_isEqual__WEBPACK_IMPORTED_MODULE_0___default()(prevPoints, points))) {
+        return this.renderSymbolsWithAnimation();
+      }
+
+      return this.renderSymbolsStatically(points);
+    }
+  }, {
+    key: "renderErrorBar",
+    value: function renderErrorBar() {
+      var isAnimationActive = this.props.isAnimationActive;
+
+      if (isAnimationActive && !this.state.isAnimationFinished) {
+        return null;
+      }
+
+      var _this$props4 = this.props,
+          points = _this$props4.points,
+          xAxis = _this$props4.xAxis,
+          yAxis = _this$props4.yAxis,
+          children = _this$props4.children;
+      var errorBarItems = (0,_util_ReactUtils__WEBPACK_IMPORTED_MODULE_9__.findAllByType)(children, _ErrorBar__WEBPACK_IMPORTED_MODULE_10__.ErrorBar.displayName);
+
+      if (!errorBarItems) {
+        return null;
+      }
+
+      function dataPointFormatterY(dataPoint, dataKey) {
+        return {
+          x: dataPoint.cx,
+          y: dataPoint.cy,
+          value: +dataPoint.node.y,
+          errorVal: (0,_util_ChartUtils__WEBPACK_IMPORTED_MODULE_11__.getValueByDataKey)(dataPoint, dataKey)
+        };
+      }
+
+      function dataPointFormatterX(dataPoint, dataKey) {
+        return {
+          x: dataPoint.cx,
+          y: dataPoint.cy,
+          value: +dataPoint.node.x,
+          errorVal: (0,_util_ChartUtils__WEBPACK_IMPORTED_MODULE_11__.getValueByDataKey)(dataPoint, dataKey)
+        };
+      }
+
+      return errorBarItems.map(function (item, i) {
+        var direction = item.props.direction;
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default().cloneElement(item, {
+          key: i,
+          // eslint-disable-line react/no-array-index-key
+          data: points,
+          xAxis: xAxis,
+          yAxis: yAxis,
+          layout: direction === 'x' ? 'vertical' : 'horizontal',
+          dataPointFormatter: direction === 'x' ? dataPointFormatterX : dataPointFormatterY
+        });
+      });
+    }
+  }, {
+    key: "renderLine",
+    value: function renderLine() {
+      var _this$props5 = this.props,
+          points = _this$props5.points,
+          line = _this$props5.line,
+          lineType = _this$props5.lineType,
+          lineJointType = _this$props5.lineJointType;
+      var scatterProps = (0,_util_types__WEBPACK_IMPORTED_MODULE_7__.filterProps)(this.props);
+      var customLineProps = (0,_util_types__WEBPACK_IMPORTED_MODULE_7__.filterProps)(line);
+      var linePoints, lineItem;
+
+      if (lineType === 'joint') {
+        linePoints = points.map(function (entry) {
+          return {
+            x: entry.cx,
+            y: entry.cy
+          };
+        });
+      } else if (lineType === 'fitting') {
+        var _getLinearRegression = (0,_util_DataUtils__WEBPACK_IMPORTED_MODULE_6__.getLinearRegression)(points),
+            xmin = _getLinearRegression.xmin,
+            xmax = _getLinearRegression.xmax,
+            a = _getLinearRegression.a,
+            b = _getLinearRegression.b;
+
+        var linearExp = function linearExp(x) {
+          return a * x + b;
+        };
+
+        linePoints = [{
+          x: xmin,
+          y: linearExp(xmin)
+        }, {
+          x: xmax,
+          y: linearExp(xmax)
+        }];
+      }
+
+      var lineProps = _objectSpread(_objectSpread(_objectSpread({}, scatterProps), {}, {
+        fill: 'none',
+        stroke: scatterProps && scatterProps.fill
+      }, customLineProps), {}, {
+        points: linePoints
+      });
+
+      if ( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default().isValidElement(line)) {
+        lineItem = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default().cloneElement(line, lineProps);
+      } else if (lodash_isFunction__WEBPACK_IMPORTED_MODULE_1___default()(line)) {
+        lineItem = line(lineProps);
+      } else {
+        lineItem = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default().createElement(_shape_Curve__WEBPACK_IMPORTED_MODULE_12__.Curve, _extends({}, lineProps, {
+          type: lineJointType
+        }));
+      }
+
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default().createElement(_container_Layer__WEBPACK_IMPORTED_MODULE_8__.Layer, {
+        className: "recharts-scatter-line",
+        key: "recharts-scatter-line"
+      }, lineItem);
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this$props6 = this.props,
+          hide = _this$props6.hide,
+          points = _this$props6.points,
+          line = _this$props6.line,
+          className = _this$props6.className,
+          xAxis = _this$props6.xAxis,
+          yAxis = _this$props6.yAxis,
+          left = _this$props6.left,
+          top = _this$props6.top,
+          width = _this$props6.width,
+          height = _this$props6.height,
+          id = _this$props6.id,
+          isAnimationActive = _this$props6.isAnimationActive;
+
+      if (hide || !points || !points.length) {
+        return null;
+      }
+
+      var isAnimationFinished = this.state.isAnimationFinished;
+      var layerClass = classnames__WEBPACK_IMPORTED_MODULE_5___default()('recharts-scatter', className);
+      var needClip = xAxis && xAxis.allowDataOverflow || yAxis && yAxis.allowDataOverflow;
+      var clipPathId = lodash_isNil__WEBPACK_IMPORTED_MODULE_2___default()(id) ? this.id : id;
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default().createElement(_container_Layer__WEBPACK_IMPORTED_MODULE_8__.Layer, {
+        className: layerClass,
+        clipPath: needClip ? "url(#clipPath-".concat(clipPathId, ")") : null
+      }, needClip ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default().createElement("defs", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default().createElement("clipPath", {
+        id: "clipPath-".concat(clipPathId)
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default().createElement("rect", {
+        x: left,
+        y: top,
+        width: width,
+        height: height
+      }))) : null, line && this.renderLine(), this.renderErrorBar(), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default().createElement(_container_Layer__WEBPACK_IMPORTED_MODULE_8__.Layer, {
+        key: "recharts-scatter-symbols"
+      }, this.renderSymbols()), (!isAnimationActive || isAnimationFinished) && _component_LabelList__WEBPACK_IMPORTED_MODULE_13__.LabelList.renderCallByParent(this.props, points));
+    }
+  }], [{
+    key: "getDerivedStateFromProps",
+    value: function getDerivedStateFromProps(nextProps, prevState) {
+      if (nextProps.animationId !== prevState.prevAnimationId) {
+        return {
+          prevAnimationId: nextProps.animationId,
+          curPoints: nextProps.points,
+          prevPoints: prevState.curPoints
+        };
+      }
+
+      if (nextProps.points !== prevState.curPoints) {
+        return {
+          curPoints: nextProps.points
+        };
+      }
+
+      return null;
+    }
+  }, {
+    key: "renderSymbolItem",
+    value: function renderSymbolItem(option, props) {
+      var symbol;
+
+      if ( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default().isValidElement(option)) {
+        symbol = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default().cloneElement(option, props);
+      } else if (lodash_isFunction__WEBPACK_IMPORTED_MODULE_1___default()(option)) {
+        symbol = option(props);
+      } else if (typeof option === 'string') {
+        symbol = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default().createElement(_shape_Symbols__WEBPACK_IMPORTED_MODULE_14__.Symbols, _extends({}, props, {
+          type: option
+        }));
+      }
+
+      return symbol;
+    }
+  }]);
+
+  return Scatter;
+}(react__WEBPACK_IMPORTED_MODULE_3__.PureComponent);
+Scatter.displayName = 'Scatter';
+Scatter.defaultProps = {
+  xAxisId: 0,
+  yAxisId: 0,
+  zAxisId: 0,
+  legendType: 'circle',
+  lineType: 'joint',
+  lineJointType: 'linear',
+  data: [],
+  shape: 'circle',
+  hide: false,
+  isAnimationActive: !_util_Global__WEBPACK_IMPORTED_MODULE_15__.Global.isSsr,
+  animationBegin: 0,
+  animationDuration: 400,
+  animationEasing: 'linear'
+};
+
+Scatter.getComposedData = function (_ref2) {
+  var xAxis = _ref2.xAxis,
+      yAxis = _ref2.yAxis,
+      zAxis = _ref2.zAxis,
+      item = _ref2.item,
+      displayedData = _ref2.displayedData,
+      xAxisTicks = _ref2.xAxisTicks,
+      yAxisTicks = _ref2.yAxisTicks,
+      offset = _ref2.offset;
+  var tooltipType = item.props.tooltipType;
+  var cells = (0,_util_ReactUtils__WEBPACK_IMPORTED_MODULE_9__.findAllByType)(item.props.children, _component_Cell__WEBPACK_IMPORTED_MODULE_16__.Cell.displayName);
+  var xAxisDataKey = lodash_isNil__WEBPACK_IMPORTED_MODULE_2___default()(xAxis.dataKey) ? item.props.dataKey : xAxis.dataKey;
+  var yAxisDataKey = lodash_isNil__WEBPACK_IMPORTED_MODULE_2___default()(yAxis.dataKey) ? item.props.dataKey : yAxis.dataKey;
+  var zAxisDataKey = zAxis && zAxis.dataKey;
+  var defaultRangeZ = zAxis ? zAxis.range : _ZAxis__WEBPACK_IMPORTED_MODULE_17__.ZAxis.defaultProps.range;
+  var defaultZ = defaultRangeZ && defaultRangeZ[0];
+  var xBandSize = xAxis.scale.bandwidth ? xAxis.scale.bandwidth() : 0;
+  var yBandSize = yAxis.scale.bandwidth ? yAxis.scale.bandwidth() : 0;
+  var points = displayedData.map(function (entry, index) {
+    var x = (0,_util_ChartUtils__WEBPACK_IMPORTED_MODULE_11__.getValueByDataKey)(entry, xAxisDataKey);
+    var y = (0,_util_ChartUtils__WEBPACK_IMPORTED_MODULE_11__.getValueByDataKey)(entry, yAxisDataKey);
+    var z = !lodash_isNil__WEBPACK_IMPORTED_MODULE_2___default()(zAxisDataKey) && (0,_util_ChartUtils__WEBPACK_IMPORTED_MODULE_11__.getValueByDataKey)(entry, zAxisDataKey) || '-';
+    var tooltipPayload = [{
+      name: lodash_isNil__WEBPACK_IMPORTED_MODULE_2___default()(xAxis.dataKey) ? item.props.name : xAxis.name || xAxis.dataKey,
+      unit: xAxis.unit || '',
+      value: x,
+      payload: entry,
+      dataKey: xAxisDataKey,
+      type: tooltipType
+    }, {
+      name: lodash_isNil__WEBPACK_IMPORTED_MODULE_2___default()(yAxis.dataKey) ? item.props.name : yAxis.name || yAxis.dataKey,
+      unit: yAxis.unit || '',
+      value: y,
+      payload: entry,
+      dataKey: yAxisDataKey,
+      type: tooltipType
+    }];
+
+    if (z !== '-') {
+      tooltipPayload.push({
+        name: zAxis.name || zAxis.dataKey,
+        unit: zAxis.unit || '',
+        value: z,
+        payload: entry,
+        dataKey: zAxisDataKey,
+        type: tooltipType
+      });
+    }
+
+    var cx = (0,_util_ChartUtils__WEBPACK_IMPORTED_MODULE_11__.getCateCoordinateOfLine)({
+      axis: xAxis,
+      ticks: xAxisTicks,
+      bandSize: xBandSize,
+      entry: entry,
+      index: index,
+      dataKey: xAxisDataKey
+    });
+    var cy = (0,_util_ChartUtils__WEBPACK_IMPORTED_MODULE_11__.getCateCoordinateOfLine)({
+      axis: yAxis,
+      ticks: yAxisTicks,
+      bandSize: yBandSize,
+      entry: entry,
+      index: index,
+      dataKey: yAxisDataKey
+    });
+    var size = z !== '-' ? zAxis.scale(z) : defaultZ;
+    var radius = Math.sqrt(Math.max(size, 0) / Math.PI);
+    return _objectSpread(_objectSpread({}, entry), {}, {
+      cx: cx,
+      cy: cy,
+      x: cx - radius,
+      y: cy - radius,
+      xAxis: xAxis,
+      yAxis: yAxis,
+      zAxis: zAxis,
+      width: 2 * radius,
+      height: 2 * radius,
+      size: size,
+      node: {
+        x: x,
+        y: y,
+        z: z
+      },
+      tooltipPayload: tooltipPayload,
+      tooltipPosition: {
+        x: cx,
+        y: cy
+      },
+      payload: entry
+    }, cells && cells[index] && cells[index].props);
+  });
+  return _objectSpread({
+    points: points
+  }, offset);
+};
+
+/***/ }),
+
+/***/ "./node_modules/recharts/es6/cartesian/XAxis.js":
+/*!******************************************************!*\
+  !*** ./node_modules/recharts/es6/cartesian/XAxis.js ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "XAxis": () => (/* binding */ XAxis)
+/* harmony export */ });
+/**
+ * @fileOverview X Axis
+ */
+
+/** Define of XAxis props */
+var XAxis = function XAxis() {
+  return null;
+};
+XAxis.displayName = 'XAxis';
+XAxis.defaultProps = {
+  allowDecimals: true,
+  hide: false,
+  orientation: 'bottom',
+  width: 0,
+  height: 30,
+  mirror: false,
+  xAxisId: 0,
+  tickCount: 5,
+  type: 'category',
+  domain: [0, 'auto'],
+  padding: {
+    left: 0,
+    right: 0
+  },
+  allowDataOverflow: false,
+  scale: 'auto',
+  reversed: false,
+  allowDuplicatedCategory: true
+};
+
+/***/ }),
+
+/***/ "./node_modules/recharts/es6/cartesian/YAxis.js":
+/*!******************************************************!*\
+  !*** ./node_modules/recharts/es6/cartesian/YAxis.js ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "YAxis": () => (/* binding */ YAxis)
+/* harmony export */ });
+/**
+ * @fileOverview Y Axis
+ */
+var YAxis = function YAxis() {
+  return null;
+};
+YAxis.displayName = 'YAxis';
+YAxis.defaultProps = {
+  allowDuplicatedCategory: true,
+  allowDecimals: true,
+  hide: false,
+  orientation: 'left',
+  width: 60,
+  height: 0,
+  mirror: false,
+  yAxisId: 0,
+  tickCount: 5,
+  type: 'number',
+  domain: [0, 'auto'],
+  padding: {
+    top: 0,
+    bottom: 0
+  },
+  allowDataOverflow: false,
+  scale: 'auto',
+  reversed: false
+};
+
+/***/ }),
+
+/***/ "./node_modules/recharts/es6/cartesian/ZAxis.js":
+/*!******************************************************!*\
+  !*** ./node_modules/recharts/es6/cartesian/ZAxis.js ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "ZAxis": () => (/* binding */ ZAxis)
+/* harmony export */ });
+/**
+ * @fileOverview Z Axis
+ */
+var ZAxis = function ZAxis() {
+  return null;
+};
+ZAxis.displayName = 'ZAxis';
+ZAxis.defaultProps = {
+  zAxisId: 0,
+  range: [64, 64],
+  scale: 'auto',
+  type: 'number'
+};
+
+/***/ }),
+
+/***/ "./node_modules/recharts/es6/chart/ScatterChart.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/recharts/es6/chart/ScatterChart.js ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "ScatterChart": () => (/* binding */ ScatterChart)
+/* harmony export */ });
+/* harmony import */ var _generateCategoricalChart__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./generateCategoricalChart */ "./node_modules/recharts/es6/chart/generateCategoricalChart.js");
+/* harmony import */ var _cartesian_Scatter__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../cartesian/Scatter */ "./node_modules/recharts/es6/cartesian/Scatter.js");
+/* harmony import */ var _cartesian_XAxis__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../cartesian/XAxis */ "./node_modules/recharts/es6/cartesian/XAxis.js");
+/* harmony import */ var _cartesian_YAxis__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../cartesian/YAxis */ "./node_modules/recharts/es6/cartesian/YAxis.js");
+/* harmony import */ var _cartesian_ZAxis__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../cartesian/ZAxis */ "./node_modules/recharts/es6/cartesian/ZAxis.js");
+/* harmony import */ var _util_CartesianUtils__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../util/CartesianUtils */ "./node_modules/recharts/es6/util/CartesianUtils.js");
+/**
+ * @fileOverview Scatter Chart
+ */
+
+
+
+
+
+
+var ScatterChart = (0,_generateCategoricalChart__WEBPACK_IMPORTED_MODULE_0__.generateCategoricalChart)({
+  chartName: 'ScatterChart',
+  GraphicalChild: _cartesian_Scatter__WEBPACK_IMPORTED_MODULE_1__.Scatter,
+  defaultTooltipEventType: 'item',
+  validateTooltipEventTypes: ['item'],
+  axisComponents: [{
+    axisType: 'xAxis',
+    AxisComp: _cartesian_XAxis__WEBPACK_IMPORTED_MODULE_2__.XAxis
+  }, {
+    axisType: 'yAxis',
+    AxisComp: _cartesian_YAxis__WEBPACK_IMPORTED_MODULE_3__.YAxis
+  }, {
+    axisType: 'zAxis',
+    AxisComp: _cartesian_ZAxis__WEBPACK_IMPORTED_MODULE_4__.ZAxis
+  }],
+  formatAxisMap: _util_CartesianUtils__WEBPACK_IMPORTED_MODULE_5__.formatAxisMap
 });
 
 /***/ }),
@@ -70248,1151 +71571,6 @@ function Surface(props) {
 
 /***/ }),
 
-/***/ "./node_modules/recharts/es6/polar/Pie.js":
-/*!************************************************!*\
-  !*** ./node_modules/recharts/es6/polar/Pie.js ***!
-  \************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Pie": () => (/* binding */ Pie)
-/* harmony export */ });
-/* harmony import */ var lodash_isEqual__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash/isEqual */ "./node_modules/lodash/isEqual.js");
-/* harmony import */ var lodash_isEqual__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash_isEqual__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var lodash_get__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lodash/get */ "./node_modules/lodash/get.js");
-/* harmony import */ var lodash_get__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(lodash_get__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var lodash_isPlainObject__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash/isPlainObject */ "./node_modules/lodash/isPlainObject.js");
-/* harmony import */ var lodash_isPlainObject__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash_isPlainObject__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var lodash_isFunction__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! lodash/isFunction */ "./node_modules/lodash/isFunction.js");
-/* harmony import */ var lodash_isFunction__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(lodash_isFunction__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var lodash_isNil__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! lodash/isNil */ "./node_modules/lodash/isNil.js");
-/* harmony import */ var lodash_isNil__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(lodash_isNil__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var react_smooth__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-smooth */ "./node_modules/react-smooth/es6/index.js");
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _container_Layer__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../container/Layer */ "./node_modules/recharts/es6/container/Layer.js");
-/* harmony import */ var _shape_Sector__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../shape/Sector */ "./node_modules/recharts/es6/shape/Sector.js");
-/* harmony import */ var _shape_Curve__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../shape/Curve */ "./node_modules/recharts/es6/shape/Curve.js");
-/* harmony import */ var _component_Text__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../component/Text */ "./node_modules/recharts/es6/component/Text.js");
-/* harmony import */ var _component_Label__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../component/Label */ "./node_modules/recharts/es6/component/Label.js");
-/* harmony import */ var _component_LabelList__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../component/LabelList */ "./node_modules/recharts/es6/component/LabelList.js");
-/* harmony import */ var _component_Cell__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../component/Cell */ "./node_modules/recharts/es6/component/Cell.js");
-/* harmony import */ var _util_ReactUtils__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../util/ReactUtils */ "./node_modules/recharts/es6/util/ReactUtils.js");
-/* harmony import */ var _util_Global__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../util/Global */ "./node_modules/recharts/es6/util/Global.js");
-/* harmony import */ var _util_PolarUtils__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../util/PolarUtils */ "./node_modules/recharts/es6/util/PolarUtils.js");
-/* harmony import */ var _util_DataUtils__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../util/DataUtils */ "./node_modules/recharts/es6/util/DataUtils.js");
-/* harmony import */ var _util_ChartUtils__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../util/ChartUtils */ "./node_modules/recharts/es6/util/ChartUtils.js");
-/* harmony import */ var _util_LogUtils__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../util/LogUtils */ "./node_modules/recharts/es6/util/LogUtils.js");
-/* harmony import */ var _util_types__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../util/types */ "./node_modules/recharts/es6/util/types.js");
-function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-
-
-
-
-
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-/**
- * @fileOverview Render sectors of a pie
- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-var Pie = /*#__PURE__*/function (_PureComponent) {
-  _inherits(Pie, _PureComponent);
-
-  var _super = _createSuper(Pie);
-
-  function Pie(props) {
-    var _this;
-
-    _classCallCheck(this, Pie);
-
-    _this = _super.call(this, props);
-    _this.state = void 0;
-    _this.id = (0,_util_DataUtils__WEBPACK_IMPORTED_MODULE_8__.uniqueId)('recharts-pie-');
-
-    _this.handleAnimationEnd = function () {
-      var onAnimationEnd = _this.props.onAnimationEnd;
-
-      _this.setState({
-        isAnimationFinished: true
-      });
-
-      if (lodash_isFunction__WEBPACK_IMPORTED_MODULE_3___default()(onAnimationEnd)) {
-        onAnimationEnd();
-      }
-    };
-
-    _this.handleAnimationStart = function () {
-      var onAnimationStart = _this.props.onAnimationStart;
-
-      _this.setState({
-        isAnimationFinished: false
-      });
-
-      if (lodash_isFunction__WEBPACK_IMPORTED_MODULE_3___default()(onAnimationStart)) {
-        onAnimationStart();
-      }
-    };
-
-    _this.state = {
-      isAnimationFinished: !props.isAnimationActive,
-      prevIsAnimationActive: props.isAnimationActive,
-      prevAnimationId: props.animationId
-    };
-    return _this;
-  }
-
-  _createClass(Pie, [{
-    key: "isActiveIndex",
-    value: function isActiveIndex(i) {
-      var activeIndex = this.props.activeIndex;
-
-      if (Array.isArray(activeIndex)) {
-        return activeIndex.indexOf(i) !== -1;
-      }
-
-      return i === activeIndex;
-    }
-  }, {
-    key: "renderLabels",
-    value: function renderLabels(sectors) {
-      var isAnimationActive = this.props.isAnimationActive;
-
-      if (isAnimationActive && !this.state.isAnimationFinished) {
-        return null;
-      }
-
-      var _this$props = this.props,
-          label = _this$props.label,
-          labelLine = _this$props.labelLine,
-          dataKey = _this$props.dataKey,
-          valueKey = _this$props.valueKey;
-      var pieProps = (0,_util_types__WEBPACK_IMPORTED_MODULE_9__.filterProps)(this.props);
-      var customLabelProps = (0,_util_types__WEBPACK_IMPORTED_MODULE_9__.filterProps)(label);
-      var customLabelLineProps = (0,_util_types__WEBPACK_IMPORTED_MODULE_9__.filterProps)(labelLine);
-      var offsetRadius = label && label.offsetRadius || 20;
-      var labels = sectors.map(function (entry, i) {
-        var midAngle = (entry.startAngle + entry.endAngle) / 2;
-        var endPoint = (0,_util_PolarUtils__WEBPACK_IMPORTED_MODULE_10__.polarToCartesian)(entry.cx, entry.cy, entry.outerRadius + offsetRadius, midAngle);
-
-        var labelProps = _objectSpread(_objectSpread(_objectSpread(_objectSpread({}, pieProps), entry), {}, {
-          stroke: 'none'
-        }, customLabelProps), {}, {
-          index: i,
-          textAnchor: Pie.getTextAnchor(endPoint.x, entry.cx)
-        }, endPoint);
-
-        var lineProps = _objectSpread(_objectSpread(_objectSpread(_objectSpread({}, pieProps), entry), {}, {
-          fill: 'none',
-          stroke: entry.fill
-        }, customLabelLineProps), {}, {
-          index: i,
-          points: [(0,_util_PolarUtils__WEBPACK_IMPORTED_MODULE_10__.polarToCartesian)(entry.cx, entry.cy, entry.outerRadius, midAngle), endPoint],
-          key: 'line'
-        });
-
-        var realDataKey = dataKey; // TODO: compatible to lower versions
-
-        if (lodash_isNil__WEBPACK_IMPORTED_MODULE_4___default()(dataKey) && lodash_isNil__WEBPACK_IMPORTED_MODULE_4___default()(valueKey)) {
-          realDataKey = 'value';
-        } else if (lodash_isNil__WEBPACK_IMPORTED_MODULE_4___default()(dataKey)) {
-          realDataKey = valueKey;
-        }
-
-        return (
-          /*#__PURE__*/
-          // eslint-disable-next-line react/no-array-index-key
-          react__WEBPACK_IMPORTED_MODULE_5___default().createElement(_container_Layer__WEBPACK_IMPORTED_MODULE_11__.Layer, {
-            key: "label-".concat(i)
-          }, labelLine && Pie.renderLabelLineItem(labelLine, lineProps), Pie.renderLabelItem(label, labelProps, (0,_util_ChartUtils__WEBPACK_IMPORTED_MODULE_12__.getValueByDataKey)(entry, realDataKey)))
-        );
-      });
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default().createElement(_container_Layer__WEBPACK_IMPORTED_MODULE_11__.Layer, {
-        className: "recharts-pie-labels"
-      }, labels);
-    }
-  }, {
-    key: "renderSectorsStatically",
-    value: function renderSectorsStatically(sectors) {
-      var _this2 = this;
-
-      var _this$props2 = this.props,
-          activeShape = _this$props2.activeShape,
-          blendStroke = _this$props2.blendStroke;
-      return sectors.map(function (entry, i) {
-        var sectorOptions = _this2.isActiveIndex(i) ? activeShape : null;
-
-        var sectorProps = _objectSpread(_objectSpread({}, entry), {}, {
-          stroke: blendStroke ? entry.fill : entry.stroke
-        });
-
-        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default().createElement(_container_Layer__WEBPACK_IMPORTED_MODULE_11__.Layer, _extends({
-          className: "recharts-pie-sector"
-        }, (0,_util_types__WEBPACK_IMPORTED_MODULE_9__.adaptEventsOfChild)(_this2.props, entry, i), {
-          key: "sector-".concat(i) // eslint-disable-line react/no-array-index-key
-
-        }), Pie.renderSectorItem(sectorOptions, sectorProps));
-      });
-    }
-  }, {
-    key: "renderSectorsWithAnimation",
-    value: function renderSectorsWithAnimation() {
-      var _this3 = this;
-
-      var _this$props3 = this.props,
-          sectors = _this$props3.sectors,
-          isAnimationActive = _this$props3.isAnimationActive,
-          animationBegin = _this$props3.animationBegin,
-          animationDuration = _this$props3.animationDuration,
-          animationEasing = _this$props3.animationEasing,
-          animationId = _this$props3.animationId;
-      var _this$state = this.state,
-          prevSectors = _this$state.prevSectors,
-          prevIsAnimationActive = _this$state.prevIsAnimationActive;
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default().createElement(react_smooth__WEBPACK_IMPORTED_MODULE_6__["default"], {
-        begin: animationBegin,
-        duration: animationDuration,
-        isActive: isAnimationActive,
-        easing: animationEasing,
-        from: {
-          t: 0
-        },
-        to: {
-          t: 1
-        },
-        key: "pie-".concat(animationId, "-").concat(prevIsAnimationActive),
-        onAnimationStart: this.handleAnimationStart,
-        onAnimationEnd: this.handleAnimationEnd
-      }, function (_ref) {
-        var t = _ref.t;
-        var stepData = [];
-        var first = sectors && sectors[0];
-        var curAngle = first.startAngle;
-        sectors.forEach(function (entry, index) {
-          var prev = prevSectors && prevSectors[index];
-          var paddingAngle = index > 0 ? lodash_get__WEBPACK_IMPORTED_MODULE_1___default()(entry, 'paddingAngle', 0) : 0;
-
-          if (prev) {
-            var angleIp = (0,_util_DataUtils__WEBPACK_IMPORTED_MODULE_8__.interpolateNumber)(prev.endAngle - prev.startAngle, entry.endAngle - entry.startAngle);
-
-            var latest = _objectSpread(_objectSpread({}, entry), {}, {
-              startAngle: curAngle + paddingAngle,
-              endAngle: curAngle + angleIp(t) + paddingAngle
-            });
-
-            stepData.push(latest);
-            curAngle = latest.endAngle;
-          } else {
-            var endAngle = entry.endAngle,
-                startAngle = entry.startAngle;
-            var interpolatorAngle = (0,_util_DataUtils__WEBPACK_IMPORTED_MODULE_8__.interpolateNumber)(0, endAngle - startAngle);
-            var deltaAngle = interpolatorAngle(t);
-
-            var _latest = _objectSpread(_objectSpread({}, entry), {}, {
-              startAngle: curAngle + paddingAngle,
-              endAngle: curAngle + deltaAngle + paddingAngle
-            });
-
-            stepData.push(_latest);
-            curAngle = _latest.endAngle;
-          }
-        });
-        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default().createElement(_container_Layer__WEBPACK_IMPORTED_MODULE_11__.Layer, null, _this3.renderSectorsStatically(stepData));
-      });
-    }
-  }, {
-    key: "renderSectors",
-    value: function renderSectors() {
-      var _this$props4 = this.props,
-          sectors = _this$props4.sectors,
-          isAnimationActive = _this$props4.isAnimationActive;
-      var prevSectors = this.state.prevSectors;
-
-      if (isAnimationActive && sectors && sectors.length && (!prevSectors || !lodash_isEqual__WEBPACK_IMPORTED_MODULE_0___default()(prevSectors, sectors))) {
-        return this.renderSectorsWithAnimation();
-      }
-
-      return this.renderSectorsStatically(sectors);
-    }
-  }, {
-    key: "render",
-    value: function render() {
-      var _this$props5 = this.props,
-          hide = _this$props5.hide,
-          sectors = _this$props5.sectors,
-          className = _this$props5.className,
-          label = _this$props5.label,
-          cx = _this$props5.cx,
-          cy = _this$props5.cy,
-          innerRadius = _this$props5.innerRadius,
-          outerRadius = _this$props5.outerRadius,
-          isAnimationActive = _this$props5.isAnimationActive;
-      var isAnimationFinished = this.state.isAnimationFinished;
-
-      if (hide || !sectors || !sectors.length || !(0,_util_DataUtils__WEBPACK_IMPORTED_MODULE_8__.isNumber)(cx) || !(0,_util_DataUtils__WEBPACK_IMPORTED_MODULE_8__.isNumber)(cy) || !(0,_util_DataUtils__WEBPACK_IMPORTED_MODULE_8__.isNumber)(innerRadius) || !(0,_util_DataUtils__WEBPACK_IMPORTED_MODULE_8__.isNumber)(outerRadius)) {
-        return null;
-      }
-
-      var layerClass = classnames__WEBPACK_IMPORTED_MODULE_7___default()('recharts-pie', className);
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default().createElement(_container_Layer__WEBPACK_IMPORTED_MODULE_11__.Layer, {
-        className: layerClass
-      }, this.renderSectors(), label && this.renderLabels(sectors), _component_Label__WEBPACK_IMPORTED_MODULE_13__.Label.renderCallByParent(this.props, null, false), (!isAnimationActive || isAnimationFinished) && _component_LabelList__WEBPACK_IMPORTED_MODULE_14__.LabelList.renderCallByParent(this.props, sectors, false));
-    }
-  }], [{
-    key: "getDerivedStateFromProps",
-    value: function getDerivedStateFromProps(nextProps, prevState) {
-      if (prevState.prevIsAnimationActive !== nextProps.isAnimationActive) {
-        return {
-          prevIsAnimationActive: nextProps.isAnimationActive,
-          prevAnimationId: nextProps.animationId,
-          curSectors: nextProps.sectors,
-          prevSectors: []
-        };
-      }
-
-      if (nextProps.isAnimationActive && nextProps.animationId !== prevState.prevAnimationId) {
-        return {
-          prevAnimationId: nextProps.animationId,
-          curSectors: nextProps.sectors,
-          prevSectors: prevState.curSectors
-        };
-      }
-
-      if (nextProps.sectors !== prevState.curSectors) {
-        return {
-          curSectors: nextProps.sectors
-        };
-      }
-
-      return null;
-    }
-  }, {
-    key: "getTextAnchor",
-    value: function getTextAnchor(x, cx) {
-      if (x > cx) {
-        return 'start';
-      }
-
-      if (x < cx) {
-        return 'end';
-      }
-
-      return 'middle';
-    }
-  }, {
-    key: "renderLabelLineItem",
-    value: function renderLabelLineItem(option, props) {
-      if ( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default().isValidElement(option)) {
-        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default().cloneElement(option, props);
-      }
-
-      if (lodash_isFunction__WEBPACK_IMPORTED_MODULE_3___default()(option)) {
-        return option(props);
-      }
-
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default().createElement(_shape_Curve__WEBPACK_IMPORTED_MODULE_15__.Curve, _extends({}, props, {
-        type: "linear",
-        className: "recharts-pie-label-line"
-      }));
-    }
-  }, {
-    key: "renderLabelItem",
-    value: function renderLabelItem(option, props, value) {
-      if ( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default().isValidElement(option)) {
-        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default().cloneElement(option, props);
-      }
-
-      var label = value;
-
-      if (lodash_isFunction__WEBPACK_IMPORTED_MODULE_3___default()(option)) {
-        label = option(props);
-
-        if ( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default().isValidElement(label)) {
-          return label;
-        }
-      }
-
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default().createElement(_component_Text__WEBPACK_IMPORTED_MODULE_16__.Text, _extends({}, props, {
-        alignmentBaseline: "middle",
-        className: "recharts-pie-label-text"
-      }), label);
-    }
-  }, {
-    key: "renderSectorItem",
-    value: function renderSectorItem(option, props) {
-      if ( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default().isValidElement(option)) {
-        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default().cloneElement(option, props);
-      }
-
-      if (lodash_isFunction__WEBPACK_IMPORTED_MODULE_3___default()(option)) {
-        return option(props);
-      }
-
-      if (lodash_isPlainObject__WEBPACK_IMPORTED_MODULE_2___default()(option)) {
-        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default().createElement(_shape_Sector__WEBPACK_IMPORTED_MODULE_17__.Sector, _extends({}, props, option));
-      }
-
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default().createElement(_shape_Sector__WEBPACK_IMPORTED_MODULE_17__.Sector, props);
-    }
-  }]);
-
-  return Pie;
-}(react__WEBPACK_IMPORTED_MODULE_5__.PureComponent);
-Pie.displayName = 'Pie';
-Pie.defaultProps = {
-  stroke: '#fff',
-  fill: '#808080',
-  legendType: 'rect',
-  cx: '50%',
-  cy: '50%',
-  startAngle: 0,
-  endAngle: 360,
-  innerRadius: 0,
-  outerRadius: '80%',
-  paddingAngle: 0,
-  labelLine: true,
-  hide: false,
-  minAngle: 0,
-  isAnimationActive: !_util_Global__WEBPACK_IMPORTED_MODULE_18__.Global.isSsr,
-  animationBegin: 400,
-  animationDuration: 1500,
-  animationEasing: 'ease',
-  nameKey: 'name',
-  blendStroke: false
-};
-
-Pie.parseDeltaAngle = function (startAngle, endAngle) {
-  var sign = (0,_util_DataUtils__WEBPACK_IMPORTED_MODULE_8__.mathSign)(endAngle - startAngle);
-  var deltaAngle = Math.min(Math.abs(endAngle - startAngle), 360);
-  return sign * deltaAngle;
-};
-
-Pie.getRealPieData = function (item) {
-  var _item$props = item.props,
-      data = _item$props.data,
-      children = _item$props.children;
-  var presentationProps = (0,_util_types__WEBPACK_IMPORTED_MODULE_9__.filterProps)(item.props);
-  var cells = (0,_util_ReactUtils__WEBPACK_IMPORTED_MODULE_19__.findAllByType)(children, _component_Cell__WEBPACK_IMPORTED_MODULE_20__.Cell.displayName);
-
-  if (data && data.length) {
-    return data.map(function (entry, index) {
-      return _objectSpread(_objectSpread(_objectSpread({
-        payload: entry
-      }, presentationProps), entry), cells && cells[index] && cells[index].props);
-    });
-  }
-
-  if (cells && cells.length) {
-    return cells.map(function (cell) {
-      return _objectSpread(_objectSpread({}, presentationProps), cell.props);
-    });
-  }
-
-  return [];
-};
-
-Pie.parseCoordinateOfPie = function (item, offset) {
-  var top = offset.top,
-      left = offset.left,
-      width = offset.width,
-      height = offset.height;
-  var maxPieRadius = (0,_util_PolarUtils__WEBPACK_IMPORTED_MODULE_10__.getMaxRadius)(width, height);
-  var cx = left + (0,_util_DataUtils__WEBPACK_IMPORTED_MODULE_8__.getPercentValue)(item.props.cx, width, width / 2);
-  var cy = top + (0,_util_DataUtils__WEBPACK_IMPORTED_MODULE_8__.getPercentValue)(item.props.cy, height, height / 2);
-  var innerRadius = (0,_util_DataUtils__WEBPACK_IMPORTED_MODULE_8__.getPercentValue)(item.props.innerRadius, maxPieRadius, 0);
-  var outerRadius = (0,_util_DataUtils__WEBPACK_IMPORTED_MODULE_8__.getPercentValue)(item.props.outerRadius, maxPieRadius, maxPieRadius * 0.8);
-  var maxRadius = item.props.maxRadius || Math.sqrt(width * width + height * height) / 2;
-  return {
-    cx: cx,
-    cy: cy,
-    innerRadius: innerRadius,
-    outerRadius: outerRadius,
-    maxRadius: maxRadius
-  };
-};
-
-Pie.getComposedData = function (_ref2) {
-  var item = _ref2.item,
-      offset = _ref2.offset;
-  var pieData = Pie.getRealPieData(item);
-
-  if (!pieData || !pieData.length) {
-    return null;
-  }
-
-  var _item$props2 = item.props,
-      cornerRadius = _item$props2.cornerRadius,
-      startAngle = _item$props2.startAngle,
-      endAngle = _item$props2.endAngle,
-      paddingAngle = _item$props2.paddingAngle,
-      dataKey = _item$props2.dataKey,
-      nameKey = _item$props2.nameKey,
-      valueKey = _item$props2.valueKey,
-      tooltipType = _item$props2.tooltipType;
-  var minAngle = Math.abs(item.props.minAngle);
-  var coordinate = Pie.parseCoordinateOfPie(item, offset);
-  var deltaAngle = Pie.parseDeltaAngle(startAngle, endAngle);
-  var absDeltaAngle = Math.abs(deltaAngle);
-  var realDataKey = dataKey;
-
-  if (lodash_isNil__WEBPACK_IMPORTED_MODULE_4___default()(dataKey) && lodash_isNil__WEBPACK_IMPORTED_MODULE_4___default()(valueKey)) {
-    (0,_util_LogUtils__WEBPACK_IMPORTED_MODULE_21__.warn)(false, "Use \"dataKey\" to specify the value of pie,\n      the props \"valueKey\" will be deprecated in 1.1.0");
-    realDataKey = 'value';
-  } else if (lodash_isNil__WEBPACK_IMPORTED_MODULE_4___default()(dataKey)) {
-    (0,_util_LogUtils__WEBPACK_IMPORTED_MODULE_21__.warn)(false, "Use \"dataKey\" to specify the value of pie,\n      the props \"valueKey\" will be deprecated in 1.1.0");
-    realDataKey = valueKey;
-  }
-
-  var notZeroItemCount = pieData.filter(function (entry) {
-    return (0,_util_ChartUtils__WEBPACK_IMPORTED_MODULE_12__.getValueByDataKey)(entry, realDataKey, 0) !== 0;
-  }).length;
-  var totalPadingAngle = (absDeltaAngle >= 360 ? notZeroItemCount : notZeroItemCount - 1) * paddingAngle;
-  var realTotalAngle = absDeltaAngle - notZeroItemCount * minAngle - totalPadingAngle;
-  var sum = pieData.reduce(function (result, entry) {
-    var val = (0,_util_ChartUtils__WEBPACK_IMPORTED_MODULE_12__.getValueByDataKey)(entry, realDataKey, 0);
-    return result + ((0,_util_DataUtils__WEBPACK_IMPORTED_MODULE_8__.isNumber)(val) ? val : 0);
-  }, 0);
-  var sectors;
-
-  if (sum > 0) {
-    var prev;
-    sectors = pieData.map(function (entry, i) {
-      var val = (0,_util_ChartUtils__WEBPACK_IMPORTED_MODULE_12__.getValueByDataKey)(entry, realDataKey, 0);
-      var name = (0,_util_ChartUtils__WEBPACK_IMPORTED_MODULE_12__.getValueByDataKey)(entry, nameKey, i);
-      var percent = ((0,_util_DataUtils__WEBPACK_IMPORTED_MODULE_8__.isNumber)(val) ? val : 0) / sum;
-      var tempStartAngle;
-
-      if (i) {
-        tempStartAngle = prev.endAngle + (0,_util_DataUtils__WEBPACK_IMPORTED_MODULE_8__.mathSign)(deltaAngle) * paddingAngle * (val !== 0 ? 1 : 0);
-      } else {
-        tempStartAngle = startAngle;
-      }
-
-      var tempEndAngle = tempStartAngle + (0,_util_DataUtils__WEBPACK_IMPORTED_MODULE_8__.mathSign)(deltaAngle) * ((val !== 0 ? minAngle : 0) + percent * realTotalAngle);
-      var midAngle = (tempStartAngle + tempEndAngle) / 2;
-      var middleRadius = (coordinate.innerRadius + coordinate.outerRadius) / 2;
-      var tooltipPayload = [{
-        name: name,
-        value: val,
-        payload: entry,
-        dataKey: realDataKey,
-        type: tooltipType
-      }];
-      var tooltipPosition = (0,_util_PolarUtils__WEBPACK_IMPORTED_MODULE_10__.polarToCartesian)(coordinate.cx, coordinate.cy, middleRadius, midAngle);
-      prev = _objectSpread(_objectSpread(_objectSpread({
-        percent: percent,
-        cornerRadius: cornerRadius,
-        name: name,
-        tooltipPayload: tooltipPayload,
-        midAngle: midAngle,
-        middleRadius: middleRadius,
-        tooltipPosition: tooltipPosition
-      }, entry), coordinate), {}, {
-        value: (0,_util_ChartUtils__WEBPACK_IMPORTED_MODULE_12__.getValueByDataKey)(entry, realDataKey),
-        startAngle: tempStartAngle,
-        endAngle: tempEndAngle,
-        payload: entry,
-        paddingAngle: (0,_util_DataUtils__WEBPACK_IMPORTED_MODULE_8__.mathSign)(deltaAngle) * paddingAngle
-      });
-      return prev;
-    });
-  }
-
-  return _objectSpread(_objectSpread({}, coordinate), {}, {
-    sectors: sectors,
-    data: pieData
-  });
-};
-
-/***/ }),
-
-/***/ "./node_modules/recharts/es6/polar/PolarAngleAxis.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/recharts/es6/polar/PolarAngleAxis.js ***!
-  \***********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "PolarAngleAxis": () => (/* binding */ PolarAngleAxis)
-/* harmony export */ });
-/* harmony import */ var lodash_isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash/isFunction */ "./node_modules/lodash/isFunction.js");
-/* harmony import */ var lodash_isFunction__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash_isFunction__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _container_Layer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../container/Layer */ "./node_modules/recharts/es6/container/Layer.js");
-/* harmony import */ var _shape_Dot__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../shape/Dot */ "./node_modules/recharts/es6/shape/Dot.js");
-/* harmony import */ var _shape_Polygon__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../shape/Polygon */ "./node_modules/recharts/es6/shape/Polygon.js");
-/* harmony import */ var _component_Text__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../component/Text */ "./node_modules/recharts/es6/component/Text.js");
-/* harmony import */ var _util_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../util/types */ "./node_modules/recharts/es6/util/types.js");
-/* harmony import */ var _util_PolarUtils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../util/PolarUtils */ "./node_modules/recharts/es6/util/PolarUtils.js");
-function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-/**
- * @fileOverview Axis of radial direction
- */
-
-
-
-
-
-
-
-var RADIAN = Math.PI / 180;
-var eps = 1e-5;
-var PolarAngleAxis = /*#__PURE__*/function (_PureComponent) {
-  _inherits(PolarAngleAxis, _PureComponent);
-
-  var _super = _createSuper(PolarAngleAxis);
-
-  function PolarAngleAxis() {
-    _classCallCheck(this, PolarAngleAxis);
-
-    return _super.apply(this, arguments);
-  }
-
-  _createClass(PolarAngleAxis, [{
-    key: "getTickLineCoord",
-    value:
-    /**
-     * Calculate the coordinate of line endpoint
-     * @param  {Object} data The Data if ticks
-     * @return {Object} (x0, y0): The start point of text,
-     *                  (x1, y1): The end point close to text,
-     *                  (x2, y2): The end point close to axis
-     */
-    function getTickLineCoord(data) {
-      var _this$props = this.props,
-          cx = _this$props.cx,
-          cy = _this$props.cy,
-          radius = _this$props.radius,
-          orientation = _this$props.orientation,
-          tickSize = _this$props.tickSize;
-      var tickLineSize = tickSize || 8;
-      var p1 = (0,_util_PolarUtils__WEBPACK_IMPORTED_MODULE_2__.polarToCartesian)(cx, cy, radius, data.coordinate);
-      var p2 = (0,_util_PolarUtils__WEBPACK_IMPORTED_MODULE_2__.polarToCartesian)(cx, cy, radius + (orientation === 'inner' ? -1 : 1) * tickLineSize, data.coordinate);
-      return {
-        x1: p1.x,
-        y1: p1.y,
-        x2: p2.x,
-        y2: p2.y
-      };
-    }
-    /**
-     * Get the text-anchor of each tick
-     * @param  {Object} data Data of ticks
-     * @return {String} text-anchor
-     */
-
-  }, {
-    key: "getTickTextAnchor",
-    value: function getTickTextAnchor(data) {
-      var orientation = this.props.orientation;
-      var cos = Math.cos(-data.coordinate * RADIAN);
-      var textAnchor;
-
-      if (cos > eps) {
-        textAnchor = orientation === 'outer' ? 'start' : 'end';
-      } else if (cos < -eps) {
-        textAnchor = orientation === 'outer' ? 'end' : 'start';
-      } else {
-        textAnchor = 'middle';
-      }
-
-      return textAnchor;
-    }
-  }, {
-    key: "renderAxisLine",
-    value: function renderAxisLine() {
-      var _this$props2 = this.props,
-          cx = _this$props2.cx,
-          cy = _this$props2.cy,
-          radius = _this$props2.radius,
-          axisLine = _this$props2.axisLine,
-          axisLineType = _this$props2.axisLineType;
-
-      var props = _objectSpread(_objectSpread({}, (0,_util_types__WEBPACK_IMPORTED_MODULE_3__.filterProps)(this.props)), {}, {
-        fill: 'none'
-      }, (0,_util_types__WEBPACK_IMPORTED_MODULE_3__.filterProps)(axisLine));
-
-      if (axisLineType === 'circle') {
-        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_shape_Dot__WEBPACK_IMPORTED_MODULE_4__.Dot, _extends({
-          className: "recharts-polar-angle-axis-line"
-        }, props, {
-          cx: cx,
-          cy: cy,
-          r: radius
-        }));
-      }
-
-      var ticks = this.props.ticks;
-      var points = ticks.map(function (entry) {
-        return (0,_util_PolarUtils__WEBPACK_IMPORTED_MODULE_2__.polarToCartesian)(cx, cy, radius, entry.coordinate);
-      });
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_shape_Polygon__WEBPACK_IMPORTED_MODULE_5__.Polygon, _extends({
-        className: "recharts-polar-angle-axis-line"
-      }, props, {
-        points: points
-      }));
-    }
-  }, {
-    key: "renderTicks",
-    value: function renderTicks() {
-      var _this = this;
-
-      var _this$props3 = this.props,
-          ticks = _this$props3.ticks,
-          tick = _this$props3.tick,
-          tickLine = _this$props3.tickLine,
-          tickFormatter = _this$props3.tickFormatter,
-          stroke = _this$props3.stroke;
-      var axisProps = (0,_util_types__WEBPACK_IMPORTED_MODULE_3__.filterProps)(this.props);
-      var customTickProps = (0,_util_types__WEBPACK_IMPORTED_MODULE_3__.filterProps)(tick);
-
-      var tickLineProps = _objectSpread(_objectSpread({}, axisProps), {}, {
-        fill: 'none'
-      }, (0,_util_types__WEBPACK_IMPORTED_MODULE_3__.filterProps)(tickLine));
-
-      var items = ticks.map(function (entry, i) {
-        var lineCoord = _this.getTickLineCoord(entry);
-
-        var textAnchor = _this.getTickTextAnchor(entry);
-
-        var tickProps = _objectSpread(_objectSpread(_objectSpread({
-          textAnchor: textAnchor
-        }, axisProps), {}, {
-          stroke: 'none',
-          fill: stroke
-        }, customTickProps), {}, {
-          index: i,
-          payload: entry,
-          x: lineCoord.x2,
-          y: lineCoord.y2
-        });
-
-        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_container_Layer__WEBPACK_IMPORTED_MODULE_6__.Layer, _extends({
-          className: "recharts-polar-angle-axis-tick",
-          key: "tick-".concat(i) // eslint-disable-line react/no-array-index-key
-
-        }, (0,_util_types__WEBPACK_IMPORTED_MODULE_3__.adaptEventsOfChild)(_this.props, entry, i)), tickLine && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("line", _extends({
-          className: "recharts-polar-angle-axis-tick-line"
-        }, tickLineProps, lineCoord)), tick && PolarAngleAxis.renderTickItem(tick, tickProps, tickFormatter ? tickFormatter(entry.value, i) : entry.value));
-      });
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_container_Layer__WEBPACK_IMPORTED_MODULE_6__.Layer, {
-        className: "recharts-polar-angle-axis-ticks"
-      }, items);
-    }
-  }, {
-    key: "render",
-    value: function render() {
-      var _this$props4 = this.props,
-          ticks = _this$props4.ticks,
-          radius = _this$props4.radius,
-          axisLine = _this$props4.axisLine;
-
-      if (radius <= 0 || !ticks || !ticks.length) {
-        return null;
-      }
-
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_container_Layer__WEBPACK_IMPORTED_MODULE_6__.Layer, {
-        className: "recharts-polar-angle-axis"
-      }, axisLine && this.renderAxisLine(), this.renderTicks());
-    }
-  }], [{
-    key: "renderTickItem",
-    value: function renderTickItem(option, props, value) {
-      var tickItem;
-
-      if ( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().isValidElement(option)) {
-        tickItem = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().cloneElement(option, props);
-      } else if (lodash_isFunction__WEBPACK_IMPORTED_MODULE_0___default()(option)) {
-        tickItem = option(props);
-      } else {
-        tickItem = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_component_Text__WEBPACK_IMPORTED_MODULE_7__.Text, _extends({}, props, {
-          className: "recharts-polar-angle-axis-tick-value"
-        }), value);
-      }
-
-      return tickItem;
-    }
-  }]);
-
-  return PolarAngleAxis;
-}(react__WEBPACK_IMPORTED_MODULE_1__.PureComponent);
-PolarAngleAxis.displayName = 'PolarAngleAxis';
-PolarAngleAxis.axisType = 'angleAxis';
-PolarAngleAxis.defaultProps = {
-  type: 'category',
-  angleAxisId: 0,
-  scale: 'auto',
-  cx: 0,
-  cy: 0,
-  domain: [0, 'auto'],
-  orientation: 'outer',
-  axisLine: true,
-  tickLine: true,
-  tickSize: 8,
-  tick: true,
-  hide: false,
-  allowDuplicatedCategory: true
-};
-
-/***/ }),
-
-/***/ "./node_modules/recharts/es6/polar/PolarRadiusAxis.js":
-/*!************************************************************!*\
-  !*** ./node_modules/recharts/es6/polar/PolarRadiusAxis.js ***!
-  \************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "PolarRadiusAxis": () => (/* binding */ PolarRadiusAxis)
-/* harmony export */ });
-/* harmony import */ var lodash_isFunction__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash/isFunction */ "./node_modules/lodash/isFunction.js");
-/* harmony import */ var lodash_isFunction__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash_isFunction__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var lodash_minBy__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lodash/minBy */ "./node_modules/lodash/minBy.js");
-/* harmony import */ var lodash_minBy__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(lodash_minBy__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var lodash_maxBy__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash/maxBy */ "./node_modules/lodash/maxBy.js");
-/* harmony import */ var lodash_maxBy__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash_maxBy__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _component_Text__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../component/Text */ "./node_modules/recharts/es6/component/Text.js");
-/* harmony import */ var _component_Label__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../component/Label */ "./node_modules/recharts/es6/component/Label.js");
-/* harmony import */ var _container_Layer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../container/Layer */ "./node_modules/recharts/es6/container/Layer.js");
-/* harmony import */ var _util_PolarUtils__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../util/PolarUtils */ "./node_modules/recharts/es6/util/PolarUtils.js");
-/* harmony import */ var _util_types__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../util/types */ "./node_modules/recharts/es6/util/types.js");
-function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-
-
-
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-/**
- * @fileOverview The axis of polar coordinate system
- */
-
-
-
-
-
-
-var PolarRadiusAxis = /*#__PURE__*/function (_PureComponent) {
-  _inherits(PolarRadiusAxis, _PureComponent);
-
-  var _super = _createSuper(PolarRadiusAxis);
-
-  function PolarRadiusAxis() {
-    _classCallCheck(this, PolarRadiusAxis);
-
-    return _super.apply(this, arguments);
-  }
-
-  _createClass(PolarRadiusAxis, [{
-    key: "getTickValueCoord",
-    value:
-    /**
-     * Calculate the coordinate of tick
-     * @param  {Number} coordinate The radius of tick
-     * @return {Object} (x, y)
-     */
-    function getTickValueCoord(_ref) {
-      var coordinate = _ref.coordinate;
-      var _this$props = this.props,
-          angle = _this$props.angle,
-          cx = _this$props.cx,
-          cy = _this$props.cy;
-      return (0,_util_PolarUtils__WEBPACK_IMPORTED_MODULE_4__.polarToCartesian)(cx, cy, coordinate, angle);
-    }
-  }, {
-    key: "getTickTextAnchor",
-    value: function getTickTextAnchor() {
-      var orientation = this.props.orientation;
-      var textAnchor;
-
-      switch (orientation) {
-        case 'left':
-          textAnchor = 'end';
-          break;
-
-        case 'right':
-          textAnchor = 'start';
-          break;
-
-        default:
-          textAnchor = 'middle';
-          break;
-      }
-
-      return textAnchor;
-    }
-  }, {
-    key: "getViewBox",
-    value: function getViewBox() {
-      var _this$props2 = this.props,
-          cx = _this$props2.cx,
-          cy = _this$props2.cy,
-          angle = _this$props2.angle,
-          ticks = _this$props2.ticks;
-
-      var maxRadiusTick = lodash_maxBy__WEBPACK_IMPORTED_MODULE_2___default()(ticks, function (entry) {
-        return entry.coordinate || 0;
-      });
-
-      var minRadiusTick = lodash_minBy__WEBPACK_IMPORTED_MODULE_1___default()(ticks, function (entry) {
-        return entry.coordinate || 0;
-      });
-
-      return {
-        cx: cx,
-        cy: cy,
-        startAngle: angle,
-        endAngle: angle,
-        innerRadius: minRadiusTick.coordinate || 0,
-        outerRadius: maxRadiusTick.coordinate || 0
-      };
-    }
-  }, {
-    key: "renderAxisLine",
-    value: function renderAxisLine() {
-      var _this$props3 = this.props,
-          cx = _this$props3.cx,
-          cy = _this$props3.cy,
-          angle = _this$props3.angle,
-          ticks = _this$props3.ticks,
-          axisLine = _this$props3.axisLine,
-          others = _objectWithoutProperties(_this$props3, ["cx", "cy", "angle", "ticks", "axisLine"]);
-
-      var extent = ticks.reduce(function (result, entry) {
-        return [Math.min(result[0], entry.coordinate), Math.max(result[1], entry.coordinate)];
-      }, [Infinity, -Infinity]);
-      var point0 = (0,_util_PolarUtils__WEBPACK_IMPORTED_MODULE_4__.polarToCartesian)(cx, cy, extent[0], angle);
-      var point1 = (0,_util_PolarUtils__WEBPACK_IMPORTED_MODULE_4__.polarToCartesian)(cx, cy, extent[1], angle);
-
-      var props = _objectSpread(_objectSpread(_objectSpread({}, (0,_util_types__WEBPACK_IMPORTED_MODULE_5__.filterProps)(others)), {}, {
-        fill: 'none'
-      }, (0,_util_types__WEBPACK_IMPORTED_MODULE_5__.filterProps)(axisLine)), {}, {
-        x1: point0.x,
-        y1: point0.y,
-        x2: point1.x,
-        y2: point1.y
-      });
-
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default().createElement("line", _extends({
-        className: "recharts-polar-radius-axis-line"
-      }, props));
-    }
-  }, {
-    key: "renderTicks",
-    value: function renderTicks() {
-      var _this = this;
-
-      var _this$props4 = this.props,
-          ticks = _this$props4.ticks,
-          tick = _this$props4.tick,
-          angle = _this$props4.angle,
-          tickFormatter = _this$props4.tickFormatter,
-          stroke = _this$props4.stroke,
-          others = _objectWithoutProperties(_this$props4, ["ticks", "tick", "angle", "tickFormatter", "stroke"]);
-
-      var textAnchor = this.getTickTextAnchor();
-      var axisProps = (0,_util_types__WEBPACK_IMPORTED_MODULE_5__.filterProps)(others);
-      var customTickProps = (0,_util_types__WEBPACK_IMPORTED_MODULE_5__.filterProps)(tick);
-      var items = ticks.map(function (entry, i) {
-        var coord = _this.getTickValueCoord(entry);
-
-        var tickProps = _objectSpread(_objectSpread(_objectSpread(_objectSpread({
-          textAnchor: textAnchor,
-          transform: "rotate(".concat(90 - angle, ", ").concat(coord.x, ", ").concat(coord.y, ")")
-        }, axisProps), {}, {
-          stroke: 'none',
-          fill: stroke
-        }, customTickProps), {}, {
-          index: i
-        }, coord), {}, {
-          payload: entry
-        });
-
-        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default().createElement(_container_Layer__WEBPACK_IMPORTED_MODULE_6__.Layer, _extends({
-          className: "recharts-polar-radius-axis-tick",
-          key: "tick-".concat(i) // eslint-disable-line react/no-array-index-key
-
-        }, (0,_util_types__WEBPACK_IMPORTED_MODULE_5__.adaptEventsOfChild)(_this.props, entry, i)), PolarRadiusAxis.renderTickItem(tick, tickProps, tickFormatter ? tickFormatter(entry.value, i) : entry.value));
-      });
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default().createElement(_container_Layer__WEBPACK_IMPORTED_MODULE_6__.Layer, {
-        className: "recharts-polar-radius-axis-ticks"
-      }, items);
-    }
-  }, {
-    key: "render",
-    value: function render() {
-      var _this$props5 = this.props,
-          ticks = _this$props5.ticks,
-          axisLine = _this$props5.axisLine,
-          tick = _this$props5.tick;
-
-      if (!ticks || !ticks.length) {
-        return null;
-      }
-
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default().createElement(_container_Layer__WEBPACK_IMPORTED_MODULE_6__.Layer, {
-        className: "recharts-polar-radius-axis"
-      }, axisLine && this.renderAxisLine(), tick && this.renderTicks(), _component_Label__WEBPACK_IMPORTED_MODULE_7__.Label.renderCallByParent(this.props, this.getViewBox()));
-    }
-  }], [{
-    key: "renderTickItem",
-    value: function renderTickItem(option, props, value) {
-      var tickItem;
-
-      if ( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default().isValidElement(option)) {
-        tickItem = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default().cloneElement(option, props);
-      } else if (lodash_isFunction__WEBPACK_IMPORTED_MODULE_0___default()(option)) {
-        tickItem = option(props);
-      } else {
-        tickItem = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default().createElement(_component_Text__WEBPACK_IMPORTED_MODULE_8__.Text, _extends({}, props, {
-          className: "recharts-polar-radius-axis-tick-value"
-        }), value);
-      }
-
-      return tickItem;
-    }
-  }]);
-
-  return PolarRadiusAxis;
-}(react__WEBPACK_IMPORTED_MODULE_3__.PureComponent);
-PolarRadiusAxis.displayName = 'PolarRadiusAxis';
-PolarRadiusAxis.axisType = 'radiusAxis';
-PolarRadiusAxis.defaultProps = {
-  type: 'number',
-  radiusAxisId: 0,
-  cx: 0,
-  cy: 0,
-  angle: 0,
-  orientation: 'right',
-  stroke: '#ccc',
-  axisLine: true,
-  tick: true,
-  tickCount: 5,
-  domain: [0, 'auto'],
-  allowDataOverflow: false,
-  scale: 'auto',
-  allowDuplicatedCategory: true
-};
-
-/***/ }),
-
 /***/ "./node_modules/recharts/es6/shape/Cross.js":
 /*!**************************************************!*\
   !*** ./node_modules/recharts/es6/shape/Cross.js ***!
@@ -71787,177 +71965,6 @@ var Dot = /*#__PURE__*/function (_PureComponent) {
   }]);
 
   return Dot;
-}(react__WEBPACK_IMPORTED_MODULE_0__.PureComponent);
-
-/***/ }),
-
-/***/ "./node_modules/recharts/es6/shape/Polygon.js":
-/*!****************************************************!*\
-  !*** ./node_modules/recharts/es6/shape/Polygon.js ***!
-  \****************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Polygon": () => (/* binding */ Polygon)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _util_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../util/types */ "./node_modules/recharts/es6/util/types.js");
-function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
-
-function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-
-function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
-
-function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && Symbol.iterator in Object(iter)) return Array.from(iter); }
-
-function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }
-
-function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
-
-/**
- * @fileOverview Polygon
- */
-
-
-
-
-var isValidatePoint = function isValidatePoint(point) {
-  return point && point.x === +point.x && point.y === +point.y;
-};
-
-var getParsedPoints = function getParsedPoints() {
-  var points = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
-  var segmentPoints = [[]];
-  points.forEach(function (entry) {
-    if (isValidatePoint(entry)) {
-      segmentPoints[segmentPoints.length - 1].push(entry);
-    } else if (segmentPoints[segmentPoints.length - 1].length > 0) {
-      // add another path
-      segmentPoints.push([]);
-    }
-  });
-
-  if (isValidatePoint(points[0])) {
-    segmentPoints[segmentPoints.length - 1].push(points[0]);
-  }
-
-  if (segmentPoints[segmentPoints.length - 1].length <= 0) {
-    segmentPoints = segmentPoints.slice(0, -1);
-  }
-
-  return segmentPoints;
-};
-
-var getSinglePolygonPath = function getSinglePolygonPath(points, connectNulls) {
-  var segmentPoints = getParsedPoints(points);
-
-  if (connectNulls) {
-    segmentPoints = [segmentPoints.reduce(function (res, segPoints) {
-      return [].concat(_toConsumableArray(res), _toConsumableArray(segPoints));
-    }, [])];
-  }
-
-  var polygonPath = segmentPoints.map(function (segPoints) {
-    return segPoints.reduce(function (path, point, index) {
-      return "".concat(path).concat(index === 0 ? 'M' : 'L').concat(point.x, ",").concat(point.y);
-    }, '');
-  }).join('');
-  return segmentPoints.length === 1 ? "".concat(polygonPath, "Z") : polygonPath;
-};
-
-var getRanglePath = function getRanglePath(points, baseLinePoints, connectNulls) {
-  var outerPath = getSinglePolygonPath(points, connectNulls);
-  return "".concat(outerPath.slice(-1) === 'Z' ? outerPath.slice(0, -1) : outerPath, "L").concat(getSinglePolygonPath(baseLinePoints.reverse(), connectNulls).slice(1));
-};
-
-var Polygon = /*#__PURE__*/function (_PureComponent) {
-  _inherits(Polygon, _PureComponent);
-
-  var _super = _createSuper(Polygon);
-
-  function Polygon() {
-    _classCallCheck(this, Polygon);
-
-    return _super.apply(this, arguments);
-  }
-
-  _createClass(Polygon, [{
-    key: "render",
-    value: function render() {
-      var _this$props = this.props,
-          points = _this$props.points,
-          className = _this$props.className,
-          baseLinePoints = _this$props.baseLinePoints,
-          connectNulls = _this$props.connectNulls,
-          others = _objectWithoutProperties(_this$props, ["points", "className", "baseLinePoints", "connectNulls"]);
-
-      if (!points || !points.length) {
-        return null;
-      }
-
-      var layerClass = classnames__WEBPACK_IMPORTED_MODULE_1___default()('recharts-polygon', className);
-
-      if (baseLinePoints && baseLinePoints.length) {
-        var hasStroke = others.stroke && others.stroke !== 'none';
-        var rangePath = getRanglePath(points, baseLinePoints, connectNulls);
-        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("g", {
-          className: layerClass
-        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", _extends({}, (0,_util_types__WEBPACK_IMPORTED_MODULE_2__.filterProps)(others, true), {
-          fill: rangePath.slice(-1) === 'Z' ? others.fill : 'none',
-          stroke: "none",
-          d: rangePath
-        })), hasStroke ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", _extends({}, (0,_util_types__WEBPACK_IMPORTED_MODULE_2__.filterProps)(others, true), {
-          fill: "none",
-          d: getSinglePolygonPath(points, connectNulls)
-        })) : null, hasStroke ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", _extends({}, (0,_util_types__WEBPACK_IMPORTED_MODULE_2__.filterProps)(others, true), {
-          fill: "none",
-          d: getSinglePolygonPath(baseLinePoints, connectNulls)
-        })) : null);
-      }
-
-      var singlePath = getSinglePolygonPath(points, connectNulls);
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", _extends({}, (0,_util_types__WEBPACK_IMPORTED_MODULE_2__.filterProps)(others, true), {
-        fill: singlePath.slice(-1) === 'Z' ? others.fill : 'none',
-        className: layerClass,
-        d: singlePath
-      }));
-    }
-  }]);
-
-  return Polygon;
 }(react__WEBPACK_IMPORTED_MODULE_0__.PureComponent);
 
 /***/ }),

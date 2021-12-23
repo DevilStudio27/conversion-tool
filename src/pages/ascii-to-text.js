@@ -29,7 +29,7 @@ const IndexPage = () => {
             <SEO title="Premium Tools" />
 
             <div className="row no-gutters">
-                <div className="col-md-8 leftside">
+                <div className="col-md-9 leftside">
                     <div className="left-heading">
                         <div className="container text-center">
                             <h1>Ascii To Text</h1>

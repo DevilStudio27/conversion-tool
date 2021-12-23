@@ -56,7 +56,7 @@ const IndexPage = () => {
             <SEO title="Premium Tools" />
 
             <div className="row no-gutters">
-                <div className="col-md-8 leftside">
+                <div className="col-md-9 leftside">
                     <div className="left-heading">
                         <div className="container text-center">
                             <h1>Pie Chart Maker</h1>
@@ -85,11 +85,11 @@ const IndexPage = () => {
                                             <button type="button" title="Clear" name="clear" aria-label="Clear" className="btn btn-secondary" onClick={() => clearValues()}>Clear</button>
                                         </div>
 
-                                        <div className="pie-container">
+                                        <div className="chart-container">
                                             {
                                                 !loader ?
-                                                    <div className="pie-content">
-                                                        <h3 className="pie_title">{mTitle}</h3>
+                                                    <div className="chart-content">
+                                                        <h3 className="chart_title">{mTitle}</h3>
                                                         <PieChart width={400} height={400} key={`p_c${pie_data.length}`}>
                                                             <Pie
                                                                 data={pie_data}
