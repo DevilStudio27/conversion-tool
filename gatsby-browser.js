@@ -5,6 +5,7 @@
  */
 
 import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import "big-number"
 import 'jquery/dist/jquery.slim.min.js';

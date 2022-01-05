@@ -14,6 +14,11 @@ const sidebar = () => (
                             <i className="fa fa-check side-item" aria-hidden="true"></i>
                             <a href="/electricity-bill"><h6>Electricity Bill</h6></a>
                         </div>
+                        <hr className="line" />
+                        <div className="card-inner-body-1">
+                            <i className="fa fa-check side-item" aria-hidden="true"></i>
+                            <a href="/notepad-tool"><h6>Notepad</h6></a>
+                        </div>
                     </div>
                 </div>
             </div>
