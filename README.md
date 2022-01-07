@@ -24,7 +24,7 @@ This is conversion tool made using react with gatsby framework, During internshi
 
 > Note: This repo is present in _**`hostingspell-dev`**_ organization but is private repo set by organization.
 
-Tool Live link : https://deploy-preview-5--dev-tool-prod-hosting.netlify.app/
+Tool Live link : https://populartools.netlify.app/
 
 Check my work done during internship here:
 https://github.com/hostingspell-dev
