@@ -12,19 +12,19 @@ This is conversion tool made using react with gatsby framework, During internshi
 
 ## Tools Available!
 
-| Number / Text  | Watt           | Ampere         | Special          |
-| :----:         | :----:         | :----:         |  :----:          |
-| Hex to Binary  | Watt to Ampere | Ampere to kW   | Electricity Bill |
-| Hex to Decimal | Watt to Volt   | Ampere to kVA  | Json Validator   |
-| Decimal to Hex | Watt to VA     | Ampere to VA   | Json Pretifier   |
-| Text to Hex    | Watt to kVA    | Ampere to Volt | Json to XML      |
-| Ascii to Text  |                | Ampere to Watt |                  |
+| Number / Text  | Watt           | Ampere         | Json             | Chart            | Special          |
+| :----:         | :----:         | :----:         |  :----:          |  :----:          |  :----:          |
+| Hex to Binary  | Watt to Ampere | Ampere to kW   | Json Validator   | Bar Chart - coming soon | Electricity Bill |
+| Hex to Decimal | Watt to Volt   | Ampere to kVA  | Json Pretifier   | Line Chart       | Notepad          |
+| Decimal to Hex | Watt to VA     | Ampere to VA   | Json to XML      | Area Chart - coming soon |                  |
+| Text to Ascii  | Watt to kVA    | Ampere to Volt |                  | Pie Chart        |                  |
+| Ascii to Text  |                | Ampere to Watt |                  | Scatter Plot     |                  |
 
 <br>
 
 > Note: This repo is present in _**`hostingspell-dev`**_ organization but is private repo set by organization.
 
-Tool Live link : https://populartools.netlify.app/
+My Tool Live link : https://populartools.netlify.app/
 
 Check my work done during internship here:
 https://github.com/hostingspell-dev
