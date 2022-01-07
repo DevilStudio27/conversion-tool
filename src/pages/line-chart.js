@@ -5,30 +5,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Sidebar from "../components/sidebar"
 
-// const data = [
-// 	{
-// 		name: 'Page A', s1: 4000, s2: 2400, tot: 2400,
-// 	},
-// 	{
-// 		name: 'Page B', s1: 3000, s2: 1398, tot: 2210,
-// 	},
-// 	{
-// 		name: 'Page C', s1: 2000, s2: 9800, tot: 2290,
-// 	},
-// 	{
-// 		name: 'Page D', s1: 2780, s2: 3908, tot: 2000,
-// 	},
-// 	{
-// 		name: 'Page E', s1: 1890, s2: 4800, tot: 2181,
-// 	},
-// 	{
-// 		name: 'Page F', s1: 2390, s2: 3800, tot: 2500,
-// 	},
-// 	{
-// 		name: 'Page G', s1: 3490, s2: 4300, tot: 2100,
-// 	},
-// ];
-
 const IndexPage = () => {
     const [loader, setLoad] = useState(true);
     const [mTitle, setTitle] = useState('');
@@ -50,11 +26,9 @@ const IndexPage = () => {
             let name = temp[i];
             let score1 = temp1[i];
             let score2 = temp2[i];
-            let query = { "name": String(name), "l1": Number(score1), "l2": Number(score2) }
-            // setLineData(line_data => line_data.push(query));
+            let query = { "name": String(name), "l1": Number(score1), "l2": Number(score2) };
             setLineData(line_data => [...line_data, query]);
         };
-        console.log(line_data);
 
     }
     const clearValues = () => {

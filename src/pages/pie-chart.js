@@ -37,10 +37,8 @@ const IndexPage = () => {
             let name = temp[i];
             let score = temp1[i];
             let query = { "name": String(name), "value": Number(score) }
-            // setPieData(pie_data => pie_data.push(query));
             setPieData(pie_data => [...pie_data, query]);
         };
-        // console.log(pie_data);
 
     }
     const clearValues = () => {

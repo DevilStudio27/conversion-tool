@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "conversion-tool",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A simple converter tool for day to day usage",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Sahil Thakur <sahilthakur376@gmail.com>",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
@@ -27,7 +27,6 @@
     "npm": "^7.19.0",
     "popper.js": "^1.14.3",
     "prop-types": "^15.7.2",
-    "qrcode.react": "^1.0.1",
     "react": "^16.8.0",
     "react-custom-roulette": "^1.1.8",
     "react-dom": "^16.8.0",
@@ -35,7 +34,6 @@
     "react-toastify": "^7.0.4",
     "recharts": "^2.1.6",
     "sharp": "^0.29.1",
-    "styled-components": "^5.3.0"
   },
   "devDependencies": {
     "prettier": "2.2.1"
@@ -55,7 +53,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/DevilStudio27/conversion-tool"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"

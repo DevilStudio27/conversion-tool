@@ -5,24 +5,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Sidebar from "../components/sidebar"
 
-// const data1 = [
-//     { x: 100, y: 200 },
-//     { x: 120, y: 100 },
-//     { x: 170, y: 300 },
-//     { x: 140, y: 250 },
-//     { x: 150, y: 400 },
-//     { x: 110, y: 280 },
-// ];
-// const data2 = [
-//     { x: 500, y: 800 },
-//     { x: 620, y: 500 },
-//     { x: 870, y: 400 },
-//     { x: 940, y: 850 },
-//     { x: 350, y: 700 },
-//     { x: 610, y: 580 },
-// ];
-
-
 const IndexPage = () => {
     const [loader, setLoad] = useState(true);
     const [mTitle, setTitle] = useState('');
@@ -56,13 +38,9 @@ const IndexPage = () => {
             let scoreY2 = tempY2[i];
             let query1 = { "x": Number(scoreX1), "y": Number(scoreY1) }
             let query2 = { "x": Number(scoreX2), "y": Number(scoreY2) }
-            //     // setScatterData(scatter_data => scatter_data.push(query));
             setS1Data(s1Data => [...s1Data, query1]);
             setS2Data(s2Data => [...s2Data, query2]);
         };
-        console.log(s1Data);
-        console.log(s2Data);
-
     }
     const clearValues = () => {
         setLoad(true)

@@ -1,10 +1,8 @@
 import React, { useState } from "react"
-// import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Sidebar from "../components/sidebar"
-// import box from "../components/box"
 
 const IndexPage = () => {
     const [ampInput, setAmpInput] = useState();
