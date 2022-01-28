@@ -16,7 +16,7 @@ This is conversion tool made using react with gatsby framework, During internshi
 | :----:         | :----:         | :----:         |  :----:          |  :----:          |  :----:          |
 | Hex to Binary  | Watt to Ampere | Ampere to kW   | Json Validator   | Bar Chart - coming soon | Electricity Bill |
 | Hex to Decimal | Watt to Volt   | Ampere to kVA  | Json Pretifier   | Line Chart       | Notepad          |
-| Decimal to Hex | Watt to VA     | Ampere to VA   | Json to XML      | Area Chart - coming soon |                  |
+| Decimal to Hex | Watt to VA     | Ampere to VA   | Json to XML      | Area Chart - coming soon | Currency Converter - coming soon |
 | Text to Ascii  | Watt to kVA    | Ampere to Volt |                  | Pie Chart        |                  |
 | Ascii to Text  |                | Ampere to Watt |                  | Scatter Plot     |                  |
 
